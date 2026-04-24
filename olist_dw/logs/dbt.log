@@ -2035,3 +2035,16 @@ with relation as (
 [0m13:08:11.185356 [debug] [MainThread]: Connection 'postgres.information_schema' was properly closed.
 [0m13:08:11.185523 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10d5dba10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10e6a9f40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10e6a9ff0>]}
 [0m13:08:11.185713 [debug] [MainThread]: Flushing usage events
+[0m14:24:44.439263 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10d458440>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10f373b10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10f3739d0>]}
+
+
+============================== 14:24:44.441353 | 2fa76daa-2757-49e9-9422-06300564f5a7 ==============================
+[0m14:24:44.441353 [info ] [MainThread]: Running with dbt=1.7.9
+[0m14:24:44.441585 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '.', 'debug': 'False', 'warn_error': 'None', 'log_path': '/Users/chokkapusaatvika/Downloads/olist-ecommerce-intelligence/olist_dw/logs', 'version_check': 'True', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'invocation_command': 'dbt run-operation sql_run --args {sql: "CREATE OR REPLACE VIEW analytics.vw_powerbi_customer_insights AS SELECT c.customer_id, c.rfm_segment, c.total_spend, c.total_orders, c.days_since_last_order, ml.predicted_churn_risk, ml.actual_churn_risk FROM analytics.mart_customer_segments c LEFT JOIN analytics.ml_churn_predictions ml ON c.customer_id = ml.customer_id;"}', 'introspect': 'True', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m14:24:44.443808 [error] [MainThread]: Encountered an error:
+Parsing Error
+  Env var required but not provided: 'DB_HOST'
+[0m14:24:44.445123 [debug] [MainThread]: Resource report: {"command_name": "run-operation", "command_wall_clock_time": 0.029750833, "process_user_time": 1.011052, "process_kernel_time": 0.10624, "process_mem_max_rss": "130187264", "command_success": false, "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m14:24:44.445323 [debug] [MainThread]: Command `dbt run-operation` failed at 14:24:44.445274 after 0.03 seconds
+[0m14:24:44.445450 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10f28ab10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10f3c9250>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10f3aebe0>]}
+[0m14:24:44.445591 [debug] [MainThread]: Flushing usage events
