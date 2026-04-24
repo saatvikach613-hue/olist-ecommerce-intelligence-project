@@ -1,0 +1,2037 @@
+[0m13:04:04.432008 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10789c830>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1098a79d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1098a7890>]}
+
+
+============================== 13:04:04.434273 | b2463cbc-1001-4fc8-9d53-72cd7e652979 ==============================
+[0m13:04:04.434273 [info ] [MainThread]: Running with dbt=1.7.9
+[0m13:04:04.434510 [debug] [MainThread]: running dbt with arguments {'write_json': 'True', 'indirect_selection': 'eager', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'version_check': 'True', 'send_anonymous_usage_stats': 'True', 'log_cache_events': 'False', 'printer_width': '80', 'debug': 'False', 'invocation_command': 'dbt run', 'partial_parse': 'True', 'use_colors': 'True', 'static_parser': 'True', 'cache_selected_only': 'False', 'profiles_dir': '.', 'warn_error': 'None', 'log_format': 'default', 'use_experimental_parser': 'False', 'introspect': 'True', 'target_path': 'None', 'log_path': '/Users/chokkapusaatvika/Downloads/olist-ecommerce-intelligence/olist_dw/logs', 'quiet': 'False', 'no_print': 'None', 'fail_fast': 'False'}
+[0m13:04:04.438895 [error] [MainThread]: Encountered an error:
+Parsing Error
+  Env var required but not provided: 'DB_HOST'
+[0m13:04:04.451275 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1097ea520>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x109948a70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x109847f00>]}
+[0m13:04:04.451534 [debug] [MainThread]: Flushing usage events
+[0m13:04:29.693480 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10a620830>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10c533750>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10c5339d0>]}
+
+
+============================== 13:04:29.695391 | 8e9cec91-45a3-436f-8ca3-03b3f5610c72 ==============================
+[0m13:04:29.695391 [info ] [MainThread]: Running with dbt=1.7.9
+[0m13:04:29.695635 [debug] [MainThread]: running dbt with arguments {'fail_fast': 'False', 'quiet': 'False', 'use_experimental_parser': 'False', 'cache_selected_only': 'False', 'partial_parse': 'True', 'introspect': 'True', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True', 'printer_width': '80', 'write_json': 'True', 'indirect_selection': 'eager', 'warn_error': 'None', 'log_cache_events': 'False', 'debug': 'False', 'invocation_command': 'dbt deps', 'version_check': 'True', 'profiles_dir': '.', 'use_colors': 'True', 'log_format': 'default', 'log_path': '/Users/chokkapusaatvika/Downloads/olist-ecommerce-intelligence/olist_dw/logs', 'no_print': 'None'}
+[0m13:04:29.730777 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '8e9cec91-45a3-436f-8ca3-03b3f5610c72', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10c476060>]}
+[0m13:04:29.731125 [info ] [MainThread]: Warning: No packages were found in packages.yml
+[0m13:04:29.731433 [info ] [MainThread]: Warning: No packages were found in packages.yml
+[0m13:04:29.732546 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10c6559d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10c655ae0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10bd25150>]}
+[0m13:04:29.732675 [debug] [MainThread]: Flushing usage events
+[0m13:05:22.059368 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x109bd0830>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10bba3890>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10bba3750>]}
+
+
+============================== 13:05:22.061064 | 64df24a7-39d8-4559-bfe7-5b0860005433 ==============================
+[0m13:05:22.061064 [info ] [MainThread]: Running with dbt=1.7.9
+[0m13:05:22.061285 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '.', 'version_check': 'True', 'fail_fast': 'False', 'log_path': '/Users/chokkapusaatvika/Downloads/olist-ecommerce-intelligence/olist_dw/logs', 'warn_error': 'None', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'target_path': 'None', 'invocation_command': 'dbt run', 'send_anonymous_usage_stats': 'True'}
+[0m13:05:23.162597 [error] [MainThread]: Encountered an error:
+Runtime Error
+  at path ['threads']: '4\\n' is not of type 'integer'
+[0m13:05:23.164194 [debug] [MainThread]: Resource report: {"command_name": "run", "command_wall_clock_time": 1.1263559, "process_user_time": 0.708072, "process_kernel_time": 0.098272, "process_mem_max_rss": "118063104", "command_success": false, "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m13:05:23.164433 [debug] [MainThread]: Command `dbt run` failed at 13:05:23.164365 after 1.13 seconds
+[0m13:05:23.164612 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10bb276f0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10c2a2c30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10c2ae140>]}
+[0m13:05:23.164787 [debug] [MainThread]: Flushing usage events
+[0m13:06:20.431769 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10a02c830>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10c037890>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10c037750>]}
+
+
+============================== 13:06:20.433840 | 3db50bb1-025e-4ba5-a566-9946b71582f1 ==============================
+[0m13:06:20.433840 [info ] [MainThread]: Running with dbt=1.7.9
+[0m13:06:20.434187 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '.', 'fail_fast': 'False', 'debug': 'False', 'log_path': '/Users/chokkapusaatvika/Downloads/olist-ecommerce-intelligence/olist_dw/logs', 'warn_error': 'None', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'invocation_command': 'dbt run', 'log_format': 'default', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m13:06:20.506317 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '3db50bb1-025e-4ba5-a566-9946b71582f1', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10bfbb360>]}
+[0m13:06:20.533106 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '3db50bb1-025e-4ba5-a566-9946b71582f1', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10c7d2360>]}
+[0m13:06:20.533679 [info ] [MainThread]: Registered adapter: postgres=1.7.9
+[0m13:06:20.565579 [debug] [MainThread]: checksum: 6ff0d83c3b46f350064523b4e08d9241403ad71d606ba49c4e670afba3668b39, vars: {}, profile: , target: , version: 1.7.9
+[0m13:06:20.565974 [info ] [MainThread]: Unable to do partial parsing because saved manifest not found. Starting full parse.
+[0m13:06:20.566135 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '3db50bb1-025e-4ba5-a566-9946b71582f1', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10bf1bc50>]}
+[0m13:06:20.569641 [error] [MainThread]: Encountered an error:
+Parsing Error
+  Error reading olist_dw: schema.yml - Runtime Error
+    Syntax error near line 36
+    ------------------------------
+    33 |       - name: is_late_delivery
+    34 |         tests:
+    35 |           - accepted_values:
+    36 |               values: [true, false]\n
+    
+    Raw Error:
+    ------------------------------
+    while parsing a block mapping
+      in "<unicode string>", line 36, column 15
+    did not find expected key
+      in "<unicode string>", line 36, column 36
+[0m13:06:20.571843 [debug] [MainThread]: Resource report: {"command_name": "run", "command_wall_clock_time": 0.16195613, "process_user_time": 0.725462, "process_kernel_time": 0.109146, "process_mem_max_rss": "119980032", "command_success": false, "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m13:06:20.572056 [debug] [MainThread]: Command `dbt run` failed at 13:06:20.572000 after 0.16 seconds
+[0m13:06:20.572225 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10ce7d310>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10ce7d400>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10bf0fe70>]}
+[0m13:06:20.572355 [debug] [MainThread]: Flushing usage events
+[0m13:06:53.463723 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107530830>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x109503890>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x109503750>]}
+
+
+============================== 13:06:53.465343 | 516856a9-0979-4ff8-a461-7302e06514b3 ==============================
+[0m13:06:53.465343 [info ] [MainThread]: Running with dbt=1.7.9
+[0m13:06:53.465576 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'fail_fast': 'False', 'log_path': '/Users/chokkapusaatvika/Downloads/olist-ecommerce-intelligence/olist_dw/logs', 'profiles_dir': '.', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'static_parser': 'True', 'invocation_command': 'dbt run', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m13:06:53.526808 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '516856a9-0979-4ff8-a461-7302e06514b3', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x109487360>]}
+[0m13:06:53.554879 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '516856a9-0979-4ff8-a461-7302e06514b3', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x109c9a360>]}
+[0m13:06:53.555305 [info ] [MainThread]: Registered adapter: postgres=1.7.9
+[0m13:06:53.562859 [debug] [MainThread]: checksum: 6ff0d83c3b46f350064523b4e08d9241403ad71d606ba49c4e670afba3668b39, vars: {}, profile: , target: , version: 1.7.9
+[0m13:06:53.563286 [info ] [MainThread]: Unable to do partial parsing because saved manifest not found. Starting full parse.
+[0m13:06:53.563472 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '516856a9-0979-4ff8-a461-7302e06514b3', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1093e7c50>]}
+[0m13:06:53.958356 [error] [MainThread]: Encountered an error:
+Compilation Error
+  Model 'model.olist_dw.stg_products' (models/staging/stg_products.sql) depends on a source named 'olist_raw.product_category_name_translation' which was not found
+[0m13:06:53.959803 [debug] [MainThread]: Resource report: {"command_name": "run", "command_wall_clock_time": 0.51730305, "process_user_time": 1.096756, "process_kernel_time": 0.110504, "process_mem_max_rss": "130318336", "command_success": false, "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m13:06:53.959982 [debug] [MainThread]: Command `dbt run` failed at 13:06:53.959934 after 0.52 seconds
+[0m13:06:53.960125 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10a71a300>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10a7196d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1093dbe70>]}
+[0m13:06:53.960272 [debug] [MainThread]: Flushing usage events
+[0m13:07:29.302829 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10a0bc830>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10c08b890>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10c08b750>]}
+
+
+============================== 13:07:29.304659 | df0826bf-3802-4c05-a88b-5bddd5006c9a ==============================
+[0m13:07:29.304659 [info ] [MainThread]: Running with dbt=1.7.9
+[0m13:07:29.304895 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'profiles_dir': '.', 'log_path': '/Users/chokkapusaatvika/Downloads/olist-ecommerce-intelligence/olist_dw/logs', 'debug': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'static_parser': 'True', 'introspect': 'True', 'invocation_command': 'dbt run', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m13:07:29.367877 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'df0826bf-3802-4c05-a88b-5bddd5006c9a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10c00f360>]}
+[0m13:07:29.396514 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'df0826bf-3802-4c05-a88b-5bddd5006c9a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10c826360>]}
+[0m13:07:29.396948 [info ] [MainThread]: Registered adapter: postgres=1.7.9
+[0m13:07:29.403885 [debug] [MainThread]: checksum: 6ff0d83c3b46f350064523b4e08d9241403ad71d606ba49c4e670afba3668b39, vars: {}, profile: , target: , version: 1.7.9
+[0m13:07:29.404248 [info ] [MainThread]: Unable to do partial parsing because saved manifest not found. Starting full parse.
+[0m13:07:29.404405 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': 'df0826bf-3802-4c05-a88b-5bddd5006c9a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10bf6fc50>]}
+[0m13:07:29.809727 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'df0826bf-3802-4c05-a88b-5bddd5006c9a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10cf4e6c0>]}
+[0m13:07:29.814218 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'df0826bf-3802-4c05-a88b-5bddd5006c9a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10d3ba190>]}
+[0m13:07:29.814401 [info ] [MainThread]: Found 15 models, 10 tests, 9 sources, 0 exposures, 0 metrics, 401 macros, 0 groups, 0 semantic models
+[0m13:07:29.814545 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'df0826bf-3802-4c05-a88b-5bddd5006c9a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10d2028f0>]}
+[0m13:07:29.815511 [info ] [MainThread]: 
+[0m13:07:29.815802 [debug] [MainThread]: Acquiring new postgres connection 'master'
+[0m13:07:29.816386 [debug] [ThreadPool]: Acquiring new postgres connection 'list_postgres'
+[0m13:07:29.820283 [debug] [ThreadPool]: Using postgres connection "list_postgres"
+[0m13:07:29.820478 [debug] [ThreadPool]: On list_postgres: /* {"app": "dbt", "dbt_version": "1.7.9", "profile_name": "olist_dw", "target_name": "dev", "connection_name": "list_postgres"} */
+
+    select distinct nspname from pg_namespace
+  
+[0m13:07:29.820586 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m13:07:30.428193 [debug] [ThreadPool]: SQL status: SELECT 6 in 1.0 seconds
+[0m13:07:30.429633 [debug] [ThreadPool]: On list_postgres: Close
+[0m13:07:30.431353 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_postgres, now list_postgres_analytics)
+[0m13:07:30.435716 [debug] [ThreadPool]: Using postgres connection "list_postgres_analytics"
+[0m13:07:30.435937 [debug] [ThreadPool]: On list_postgres_analytics: BEGIN
+[0m13:07:30.436091 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m13:07:30.849591 [debug] [ThreadPool]: SQL status: BEGIN in 0.0 seconds
+[0m13:07:30.850520 [debug] [ThreadPool]: Using postgres connection "list_postgres_analytics"
+[0m13:07:30.851479 [debug] [ThreadPool]: On list_postgres_analytics: /* {"app": "dbt", "dbt_version": "1.7.9", "profile_name": "olist_dw", "target_name": "dev", "connection_name": "list_postgres_analytics"} */
+select
+      'postgres' as database,
+      tablename as name,
+      schemaname as schema,
+      'table' as type
+    from pg_tables
+    where schemaname ilike 'analytics'
+    union all
+    select
+      'postgres' as database,
+      viewname as name,
+      schemaname as schema,
+      'view' as type
+    from pg_views
+    where schemaname ilike 'analytics'
+    union all
+    select
+      'postgres' as database,
+      matviewname as name,
+      schemaname as schema,
+      'materialized_view' as type
+    from pg_matviews
+    where schemaname ilike 'analytics'
+  
+[0m13:07:30.907846 [debug] [ThreadPool]: SQL status: SELECT 0 in 0.0 seconds
+[0m13:07:30.909305 [debug] [ThreadPool]: On list_postgres_analytics: ROLLBACK
+[0m13:07:30.951944 [debug] [ThreadPool]: On list_postgres_analytics: Close
+[0m13:07:30.957402 [debug] [MainThread]: Using postgres connection "master"
+[0m13:07:30.957695 [debug] [MainThread]: On master: BEGIN
+[0m13:07:30.957922 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m13:07:31.346350 [debug] [MainThread]: SQL status: BEGIN in 0.0 seconds
+[0m13:07:31.347108 [debug] [MainThread]: Using postgres connection "master"
+[0m13:07:31.347765 [debug] [MainThread]: On master: /* {"app": "dbt", "dbt_version": "1.7.9", "profile_name": "olist_dw", "target_name": "dev", "connection_name": "master"} */
+with relation as (
+        select
+            pg_rewrite.ev_class as class,
+            pg_rewrite.oid as id
+        from pg_rewrite
+    ),
+    class as (
+        select
+            oid as id,
+            relname as name,
+            relnamespace as schema,
+            relkind as kind
+        from pg_class
+    ),
+    dependency as (
+        select distinct
+            pg_depend.objid as id,
+            pg_depend.refobjid as ref
+        from pg_depend
+    ),
+    schema as (
+        select
+            pg_namespace.oid as id,
+            pg_namespace.nspname as name
+        from pg_namespace
+        where nspname != 'information_schema' and nspname not like 'pg\_%'
+    ),
+    referenced as (
+        select
+            relation.id AS id,
+            referenced_class.name ,
+            referenced_class.schema ,
+            referenced_class.kind
+        from relation
+        join class as referenced_class on relation.class=referenced_class.id
+        where referenced_class.kind in ('r', 'v', 'm')
+    ),
+    relationships as (
+        select
+            referenced.name as referenced_name,
+            referenced.schema as referenced_schema_id,
+            dependent_class.name as dependent_name,
+            dependent_class.schema as dependent_schema_id,
+            referenced.kind as kind
+        from referenced
+        join dependency on referenced.id=dependency.id
+        join class as dependent_class on dependency.ref=dependent_class.id
+        where
+            (referenced.name != dependent_class.name or
+             referenced.schema != dependent_class.schema)
+    )
+
+    select
+        referenced_schema.name as referenced_schema,
+        relationships.referenced_name as referenced_name,
+        dependent_schema.name as dependent_schema,
+        relationships.dependent_name as dependent_name
+    from relationships
+    join schema as dependent_schema on relationships.dependent_schema_id=dependent_schema.id
+    join schema as referenced_schema on relationships.referenced_schema_id=referenced_schema.id
+    group by referenced_schema, referenced_name, dependent_schema, dependent_name
+    order by referenced_schema, referenced_name, dependent_schema, dependent_name;
+[0m13:07:31.399276 [debug] [MainThread]: SQL status: SELECT 0 in 0.0 seconds
+[0m13:07:31.401837 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'df0826bf-3802-4c05-a88b-5bddd5006c9a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10d333f50>]}
+[0m13:07:31.402478 [debug] [MainThread]: On master: ROLLBACK
+[0m13:07:31.443261 [debug] [MainThread]: Using postgres connection "master"
+[0m13:07:31.443666 [debug] [MainThread]: On master: BEGIN
+[0m13:07:31.524911 [debug] [MainThread]: SQL status: BEGIN in 0.0 seconds
+[0m13:07:31.525720 [debug] [MainThread]: On master: COMMIT
+[0m13:07:31.526216 [debug] [MainThread]: Using postgres connection "master"
+[0m13:07:31.526624 [debug] [MainThread]: On master: COMMIT
+[0m13:07:31.567496 [debug] [MainThread]: SQL status: COMMIT in 0.0 seconds
+[0m13:07:31.568732 [debug] [MainThread]: On master: Close
+[0m13:07:31.570081 [info ] [MainThread]: Concurrency: 4 threads (target='dev')
+[0m13:07:31.570526 [info ] [MainThread]: 
+[0m13:07:31.574855 [debug] [Thread-3 (]: Began running node model.olist_dw.stg_orders
+[0m13:07:31.575381 [debug] [Thread-1 (]: Began running node model.olist_dw.stg_customers
+[0m13:07:31.575788 [debug] [Thread-2 (]: Began running node model.olist_dw.stg_order_items
+[0m13:07:31.576165 [debug] [Thread-4 (]: Began running node model.olist_dw.stg_payments
+[0m13:07:31.576753 [info ] [Thread-3 (]: 3 of 15 START sql view model analytics.stg_orders .............................. [RUN]
+[0m13:07:31.577326 [info ] [Thread-1 (]: 1 of 15 START sql view model analytics.stg_customers ........................... [RUN]
+[0m13:07:31.577901 [info ] [Thread-2 (]: 2 of 15 START sql view model analytics.stg_order_items ......................... [RUN]
+[0m13:07:31.578419 [info ] [Thread-4 (]: 4 of 15 START sql view model analytics.stg_payments ............................ [RUN]
+[0m13:07:31.579346 [debug] [Thread-3 (]: Acquiring new postgres connection 'model.olist_dw.stg_orders'
+[0m13:07:31.579929 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly list_postgres_analytics, now model.olist_dw.stg_customers)
+[0m13:07:31.580524 [debug] [Thread-2 (]: Acquiring new postgres connection 'model.olist_dw.stg_order_items'
+[0m13:07:31.581084 [debug] [Thread-4 (]: Acquiring new postgres connection 'model.olist_dw.stg_payments'
+[0m13:07:31.581409 [debug] [Thread-3 (]: Began compiling node model.olist_dw.stg_orders
+[0m13:07:31.581708 [debug] [Thread-1 (]: Began compiling node model.olist_dw.stg_customers
+[0m13:07:31.581987 [debug] [Thread-2 (]: Began compiling node model.olist_dw.stg_order_items
+[0m13:07:31.582267 [debug] [Thread-4 (]: Began compiling node model.olist_dw.stg_payments
+[0m13:07:31.590533 [debug] [Thread-3 (]: Writing injected SQL for node "model.olist_dw.stg_orders"
+[0m13:07:31.592492 [debug] [Thread-1 (]: Writing injected SQL for node "model.olist_dw.stg_customers"
+[0m13:07:31.594207 [debug] [Thread-2 (]: Writing injected SQL for node "model.olist_dw.stg_order_items"
+[0m13:07:31.596027 [debug] [Thread-4 (]: Writing injected SQL for node "model.olist_dw.stg_payments"
+[0m13:07:31.597257 [debug] [Thread-3 (]: Timing info for model.olist_dw.stg_orders (compile): 13:07:31.582490 => 13:07:31.597013
+[0m13:07:31.597677 [debug] [Thread-2 (]: Timing info for model.olist_dw.stg_order_items (compile): 13:07:31.592721 => 13:07:31.597451
+[0m13:07:31.597993 [debug] [Thread-4 (]: Timing info for model.olist_dw.stg_payments (compile): 13:07:31.594423 => 13:07:31.597848
+[0m13:07:31.598270 [debug] [Thread-1 (]: Timing info for model.olist_dw.stg_customers (compile): 13:07:31.590787 => 13:07:31.598141
+[0m13:07:31.598524 [debug] [Thread-3 (]: Began executing node model.olist_dw.stg_orders
+[0m13:07:31.598775 [debug] [Thread-2 (]: Began executing node model.olist_dw.stg_order_items
+[0m13:07:31.599011 [debug] [Thread-4 (]: Began executing node model.olist_dw.stg_payments
+[0m13:07:31.599233 [debug] [Thread-1 (]: Began executing node model.olist_dw.stg_customers
+[0m13:07:31.622766 [debug] [Thread-3 (]: Writing runtime sql for node "model.olist_dw.stg_orders"
+[0m13:07:31.623941 [debug] [Thread-2 (]: Writing runtime sql for node "model.olist_dw.stg_order_items"
+[0m13:07:31.625491 [debug] [Thread-4 (]: Writing runtime sql for node "model.olist_dw.stg_payments"
+[0m13:07:31.627219 [debug] [Thread-1 (]: Writing runtime sql for node "model.olist_dw.stg_customers"
+[0m13:07:31.627864 [debug] [Thread-1 (]: Using postgres connection "model.olist_dw.stg_customers"
+[0m13:07:31.628068 [debug] [Thread-2 (]: Using postgres connection "model.olist_dw.stg_order_items"
+[0m13:07:31.628258 [debug] [Thread-3 (]: Using postgres connection "model.olist_dw.stg_orders"
+[0m13:07:31.628411 [debug] [Thread-4 (]: Using postgres connection "model.olist_dw.stg_payments"
+[0m13:07:31.628548 [debug] [Thread-1 (]: On model.olist_dw.stg_customers: BEGIN
+[0m13:07:31.628702 [debug] [Thread-2 (]: On model.olist_dw.stg_order_items: BEGIN
+[0m13:07:31.628853 [debug] [Thread-3 (]: On model.olist_dw.stg_orders: BEGIN
+[0m13:07:31.629004 [debug] [Thread-4 (]: On model.olist_dw.stg_payments: BEGIN
+[0m13:07:31.629154 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m13:07:31.629292 [debug] [Thread-2 (]: Opening a new connection, currently in state init
+[0m13:07:31.629429 [debug] [Thread-3 (]: Opening a new connection, currently in state init
+[0m13:07:31.629565 [debug] [Thread-4 (]: Opening a new connection, currently in state init
+[0m13:07:32.026492 [debug] [Thread-1 (]: SQL status: BEGIN in 0.0 seconds
+[0m13:07:32.027331 [debug] [Thread-1 (]: Using postgres connection "model.olist_dw.stg_customers"
+[0m13:07:32.027930 [debug] [Thread-1 (]: On model.olist_dw.stg_customers: /* {"app": "dbt", "dbt_version": "1.7.9", "profile_name": "olist_dw", "target_name": "dev", "node_id": "model.olist_dw.stg_customers"} */
+
+  create view "postgres"."analytics"."stg_customers__dbt_tmp"
+    
+    
+  as (
+    SELECT 
+    customer_id,
+    customer_unique_id,
+    customer_zip_code_prefix AS zip_code_prefix,
+    customer_city AS city,
+    customer_state AS state
+FROM "postgres"."raw"."olist_customers"
+WHERE customer_id IS NOT NULL
+  );
+[0m13:07:32.041856 [debug] [Thread-2 (]: SQL status: BEGIN in 0.0 seconds
+[0m13:07:32.042638 [debug] [Thread-2 (]: Using postgres connection "model.olist_dw.stg_order_items"
+[0m13:07:32.043119 [debug] [Thread-2 (]: On model.olist_dw.stg_order_items: /* {"app": "dbt", "dbt_version": "1.7.9", "profile_name": "olist_dw", "target_name": "dev", "node_id": "model.olist_dw.stg_order_items"} */
+
+  create view "postgres"."analytics"."stg_order_items__dbt_tmp"
+    
+    
+  as (
+    SELECT 
+    order_id,
+    order_item_id,
+    product_id,
+    seller_id,
+    CAST(shipping_limit_date AS TIMESTAMP) AS shipping_limit_date,
+    price,
+    freight_value
+FROM "postgres"."raw"."olist_order_items"
+  );
+[0m13:07:32.047013 [debug] [Thread-4 (]: SQL status: BEGIN in 0.0 seconds
+[0m13:07:32.047490 [debug] [Thread-4 (]: Using postgres connection "model.olist_dw.stg_payments"
+[0m13:07:32.047850 [debug] [Thread-4 (]: On model.olist_dw.stg_payments: /* {"app": "dbt", "dbt_version": "1.7.9", "profile_name": "olist_dw", "target_name": "dev", "node_id": "model.olist_dw.stg_payments"} */
+
+  create view "postgres"."analytics"."stg_payments__dbt_tmp"
+    
+    
+  as (
+    SELECT 
+    order_id,
+    payment_sequential,
+    payment_type,
+    payment_installments,
+    payment_value
+FROM "postgres"."raw"."olist_order_payments"
+  );
+[0m13:07:32.050932 [debug] [Thread-3 (]: SQL status: BEGIN in 0.0 seconds
+[0m13:07:32.051656 [debug] [Thread-3 (]: Using postgres connection "model.olist_dw.stg_orders"
+[0m13:07:32.052172 [debug] [Thread-3 (]: On model.olist_dw.stg_orders: /* {"app": "dbt", "dbt_version": "1.7.9", "profile_name": "olist_dw", "target_name": "dev", "node_id": "model.olist_dw.stg_orders"} */
+
+  create view "postgres"."analytics"."stg_orders__dbt_tmp"
+    
+    
+  as (
+    SELECT 
+    order_id,
+    customer_id,
+    order_status,
+    CAST(order_purchase_timestamp AS TIMESTAMP) AS purchase_timestamp,
+    CAST(order_approved_at AS TIMESTAMP) AS approved_at,
+    CAST(order_delivered_carrier_date AS TIMESTAMP) AS delivered_carrier_date,
+    CAST(order_delivered_customer_date AS TIMESTAMP) AS delivered_customer_date,
+    CAST(order_estimated_delivery_date AS TIMESTAMP) AS estimated_delivery_date
+FROM "postgres"."raw"."olist_orders"
+WHERE order_id IS NOT NULL
+  );
+[0m13:07:32.089241 [debug] [Thread-1 (]: SQL status: CREATE VIEW in 0.0 seconds
+[0m13:07:32.096668 [debug] [Thread-4 (]: SQL status: CREATE VIEW in 0.0 seconds
+[0m13:07:32.097218 [debug] [Thread-2 (]: SQL status: CREATE VIEW in 0.0 seconds
+[0m13:07:32.099627 [debug] [Thread-1 (]: Using postgres connection "model.olist_dw.stg_customers"
+[0m13:07:32.103166 [debug] [Thread-4 (]: Using postgres connection "model.olist_dw.stg_payments"
+[0m13:07:32.103486 [debug] [Thread-3 (]: SQL status: CREATE VIEW in 0.0 seconds
+[0m13:07:32.106575 [debug] [Thread-2 (]: Using postgres connection "model.olist_dw.stg_order_items"
+[0m13:07:32.107173 [debug] [Thread-1 (]: On model.olist_dw.stg_customers: /* {"app": "dbt", "dbt_version": "1.7.9", "profile_name": "olist_dw", "target_name": "dev", "node_id": "model.olist_dw.stg_customers"} */
+alter table "postgres"."analytics"."stg_customers__dbt_tmp" rename to "stg_customers"
+[0m13:07:32.107597 [debug] [Thread-4 (]: On model.olist_dw.stg_payments: /* {"app": "dbt", "dbt_version": "1.7.9", "profile_name": "olist_dw", "target_name": "dev", "node_id": "model.olist_dw.stg_payments"} */
+alter table "postgres"."analytics"."stg_payments__dbt_tmp" rename to "stg_payments"
+[0m13:07:32.110378 [debug] [Thread-3 (]: Using postgres connection "model.olist_dw.stg_orders"
+[0m13:07:32.110759 [debug] [Thread-2 (]: On model.olist_dw.stg_order_items: /* {"app": "dbt", "dbt_version": "1.7.9", "profile_name": "olist_dw", "target_name": "dev", "node_id": "model.olist_dw.stg_order_items"} */
+alter table "postgres"."analytics"."stg_order_items__dbt_tmp" rename to "stg_order_items"
+[0m13:07:32.111194 [debug] [Thread-3 (]: On model.olist_dw.stg_orders: /* {"app": "dbt", "dbt_version": "1.7.9", "profile_name": "olist_dw", "target_name": "dev", "node_id": "model.olist_dw.stg_orders"} */
+alter table "postgres"."analytics"."stg_orders__dbt_tmp" rename to "stg_orders"
+[0m13:07:32.154747 [debug] [Thread-1 (]: SQL status: ALTER TABLE in 0.0 seconds
+[0m13:07:32.161901 [debug] [Thread-3 (]: SQL status: ALTER TABLE in 0.0 seconds
+[0m13:07:32.168723 [debug] [Thread-2 (]: SQL status: ALTER TABLE in 0.0 seconds
+[0m13:07:32.172466 [debug] [Thread-3 (]: On model.olist_dw.stg_orders: COMMIT
+[0m13:07:32.174719 [debug] [Thread-1 (]: On model.olist_dw.stg_customers: COMMIT
+[0m13:07:32.175007 [debug] [Thread-4 (]: SQL status: ALTER TABLE in 0.0 seconds
+[0m13:07:32.176139 [debug] [Thread-2 (]: On model.olist_dw.stg_order_items: COMMIT
+[0m13:07:32.176401 [debug] [Thread-3 (]: Using postgres connection "model.olist_dw.stg_orders"
+[0m13:07:32.176621 [debug] [Thread-1 (]: Using postgres connection "model.olist_dw.stg_customers"
+[0m13:07:32.177600 [debug] [Thread-4 (]: On model.olist_dw.stg_payments: COMMIT
+[0m13:07:32.177840 [debug] [Thread-2 (]: Using postgres connection "model.olist_dw.stg_order_items"
+[0m13:07:32.178061 [debug] [Thread-3 (]: On model.olist_dw.stg_orders: COMMIT
+[0m13:07:32.178248 [debug] [Thread-1 (]: On model.olist_dw.stg_customers: COMMIT
+[0m13:07:32.178432 [debug] [Thread-4 (]: Using postgres connection "model.olist_dw.stg_payments"
+[0m13:07:32.178616 [debug] [Thread-2 (]: On model.olist_dw.stg_order_items: COMMIT
+[0m13:07:32.178897 [debug] [Thread-4 (]: On model.olist_dw.stg_payments: COMMIT
+[0m13:07:32.220727 [debug] [Thread-1 (]: SQL status: COMMIT in 0.0 seconds
+[0m13:07:32.226547 [debug] [Thread-1 (]: Applying DROP to: "postgres"."analytics"."stg_customers__dbt_backup"
+[0m13:07:32.226823 [debug] [Thread-3 (]: SQL status: COMMIT in 0.0 seconds
+[0m13:07:32.227036 [debug] [Thread-2 (]: SQL status: COMMIT in 0.0 seconds
+[0m13:07:32.227232 [debug] [Thread-4 (]: SQL status: COMMIT in 0.0 seconds
+[0m13:07:32.230774 [debug] [Thread-1 (]: Using postgres connection "model.olist_dw.stg_customers"
+[0m13:07:32.232231 [debug] [Thread-3 (]: Applying DROP to: "postgres"."analytics"."stg_orders__dbt_backup"
+[0m13:07:32.233736 [debug] [Thread-2 (]: Applying DROP to: "postgres"."analytics"."stg_order_items__dbt_backup"
+[0m13:07:32.234992 [debug] [Thread-4 (]: Applying DROP to: "postgres"."analytics"."stg_payments__dbt_backup"
+[0m13:07:32.235203 [debug] [Thread-1 (]: On model.olist_dw.stg_customers: /* {"app": "dbt", "dbt_version": "1.7.9", "profile_name": "olist_dw", "target_name": "dev", "node_id": "model.olist_dw.stg_customers"} */
+drop view if exists "postgres"."analytics"."stg_customers__dbt_backup" cascade
+[0m13:07:32.235678 [debug] [Thread-3 (]: Using postgres connection "model.olist_dw.stg_orders"
+[0m13:07:32.236142 [debug] [Thread-2 (]: Using postgres connection "model.olist_dw.stg_order_items"
+[0m13:07:32.236589 [debug] [Thread-4 (]: Using postgres connection "model.olist_dw.stg_payments"
+[0m13:07:32.236829 [debug] [Thread-3 (]: On model.olist_dw.stg_orders: /* {"app": "dbt", "dbt_version": "1.7.9", "profile_name": "olist_dw", "target_name": "dev", "node_id": "model.olist_dw.stg_orders"} */
+drop view if exists "postgres"."analytics"."stg_orders__dbt_backup" cascade
+[0m13:07:32.237045 [debug] [Thread-2 (]: On model.olist_dw.stg_order_items: /* {"app": "dbt", "dbt_version": "1.7.9", "profile_name": "olist_dw", "target_name": "dev", "node_id": "model.olist_dw.stg_order_items"} */
+drop view if exists "postgres"."analytics"."stg_order_items__dbt_backup" cascade
+[0m13:07:32.237243 [debug] [Thread-4 (]: On model.olist_dw.stg_payments: /* {"app": "dbt", "dbt_version": "1.7.9", "profile_name": "olist_dw", "target_name": "dev", "node_id": "model.olist_dw.stg_payments"} */
+drop view if exists "postgres"."analytics"."stg_payments__dbt_backup" cascade
+[0m13:07:32.277724 [debug] [Thread-1 (]: SQL status: DROP VIEW in 0.0 seconds
+[0m13:07:32.278953 [debug] [Thread-1 (]: Timing info for model.olist_dw.stg_customers (execute): 13:07:31.625612 => 13:07:32.278775
+[0m13:07:32.279241 [debug] [Thread-1 (]: On model.olist_dw.stg_customers: Close
+[0m13:07:32.280027 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'df0826bf-3802-4c05-a88b-5bddd5006c9a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10d1ce4c0>]}
+[0m13:07:32.280322 [debug] [Thread-2 (]: SQL status: DROP VIEW in 0.0 seconds
+[0m13:07:32.281906 [debug] [Thread-2 (]: Timing info for model.olist_dw.stg_order_items (execute): 13:07:31.611680 => 13:07:32.281761
+[0m13:07:32.282164 [debug] [Thread-4 (]: SQL status: DROP VIEW in 0.0 seconds
+[0m13:07:32.282409 [debug] [Thread-2 (]: On model.olist_dw.stg_order_items: Close
+[0m13:07:32.282621 [debug] [Thread-3 (]: SQL status: DROP VIEW in 0.0 seconds
+[0m13:07:32.280821 [info ] [Thread-1 (]: 1 of 15 OK created sql view model analytics.stg_customers ...................... [[32mCREATE VIEW[0m in 0.70s]
+[0m13:07:32.283754 [debug] [Thread-4 (]: Timing info for model.olist_dw.stg_payments (execute): 13:07:31.624062 => 13:07:32.283593
+[0m13:07:32.284749 [debug] [Thread-3 (]: Timing info for model.olist_dw.stg_orders (execute): 13:07:31.599381 => 13:07:32.284612
+[0m13:07:32.285256 [debug] [Thread-2 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'df0826bf-3802-4c05-a88b-5bddd5006c9a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10d4adbd0>]}
+[0m13:07:32.285696 [debug] [Thread-1 (]: Finished running node model.olist_dw.stg_customers
+[0m13:07:32.285983 [debug] [Thread-4 (]: On model.olist_dw.stg_payments: Close
+[0m13:07:32.286233 [debug] [Thread-3 (]: On model.olist_dw.stg_orders: Close
+[0m13:07:32.286573 [debug] [Thread-1 (]: Began running node model.olist_dw.stg_products
+[0m13:07:32.286975 [info ] [Thread-2 (]: 2 of 15 OK created sql view model analytics.stg_order_items .................... [[32mCREATE VIEW[0m in 0.71s]
+[0m13:07:32.287426 [info ] [Thread-1 (]: 5 of 15 START sql view model analytics.stg_products ............................ [RUN]
+[0m13:07:32.287883 [debug] [Thread-4 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'df0826bf-3802-4c05-a88b-5bddd5006c9a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10d4245d0>]}
+[0m13:07:32.288249 [debug] [Thread-3 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'df0826bf-3802-4c05-a88b-5bddd5006c9a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10d4bc750>]}
+[0m13:07:32.288559 [debug] [Thread-2 (]: Finished running node model.olist_dw.stg_order_items
+[0m13:07:32.288921 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.olist_dw.stg_customers, now model.olist_dw.stg_products)
+[0m13:07:32.289250 [info ] [Thread-4 (]: 4 of 15 OK created sql view model analytics.stg_payments ....................... [[32mCREATE VIEW[0m in 0.71s]
+[0m13:07:32.289541 [info ] [Thread-3 (]: 3 of 15 OK created sql view model analytics.stg_orders ......................... [[32mCREATE VIEW[0m in 0.71s]
+[0m13:07:32.289799 [debug] [Thread-2 (]: Began running node model.olist_dw.stg_reviews
+[0m13:07:32.290061 [debug] [Thread-1 (]: Began compiling node model.olist_dw.stg_products
+[0m13:07:32.290371 [debug] [Thread-4 (]: Finished running node model.olist_dw.stg_payments
+[0m13:07:32.290650 [debug] [Thread-3 (]: Finished running node model.olist_dw.stg_orders
+[0m13:07:32.290885 [info ] [Thread-2 (]: 6 of 15 START sql view model analytics.stg_reviews ............................. [RUN]
+[0m13:07:32.292835 [debug] [Thread-1 (]: Writing injected SQL for node "model.olist_dw.stg_products"
+[0m13:07:32.293077 [debug] [Thread-4 (]: Began running node model.olist_dw.stg_sellers
+[0m13:07:32.293499 [debug] [Thread-2 (]: Re-using an available connection from the pool (formerly model.olist_dw.stg_order_items, now model.olist_dw.stg_reviews)
+[0m13:07:32.293765 [info ] [Thread-4 (]: 7 of 15 START sql view model analytics.stg_sellers ............................. [RUN]
+[0m13:07:32.293984 [debug] [Thread-2 (]: Began compiling node model.olist_dw.stg_reviews
+[0m13:07:32.294298 [debug] [Thread-4 (]: Re-using an available connection from the pool (formerly model.olist_dw.stg_payments, now model.olist_dw.stg_sellers)
+[0m13:07:32.295567 [debug] [Thread-2 (]: Writing injected SQL for node "model.olist_dw.stg_reviews"
+[0m13:07:32.295757 [debug] [Thread-4 (]: Began compiling node model.olist_dw.stg_sellers
+[0m13:07:32.295985 [debug] [Thread-1 (]: Timing info for model.olist_dw.stg_products (compile): 13:07:32.291037 => 13:07:32.295872
+[0m13:07:32.297721 [debug] [Thread-4 (]: Writing injected SQL for node "model.olist_dw.stg_sellers"
+[0m13:07:32.297921 [debug] [Thread-1 (]: Began executing node model.olist_dw.stg_products
+[0m13:07:32.299876 [debug] [Thread-1 (]: Writing runtime sql for node "model.olist_dw.stg_products"
+[0m13:07:32.300110 [debug] [Thread-2 (]: Timing info for model.olist_dw.stg_reviews (compile): 13:07:32.294457 => 13:07:32.300012
+[0m13:07:32.300307 [debug] [Thread-2 (]: Began executing node model.olist_dw.stg_reviews
+[0m13:07:32.300518 [debug] [Thread-4 (]: Timing info for model.olist_dw.stg_sellers (compile): 13:07:32.296132 => 13:07:32.300413
+[0m13:07:32.302625 [debug] [Thread-2 (]: Writing runtime sql for node "model.olist_dw.stg_reviews"
+[0m13:07:32.302817 [debug] [Thread-4 (]: Began executing node model.olist_dw.stg_sellers
+[0m13:07:32.304598 [debug] [Thread-4 (]: Writing runtime sql for node "model.olist_dw.stg_sellers"
+[0m13:07:32.304792 [debug] [Thread-1 (]: Using postgres connection "model.olist_dw.stg_products"
+[0m13:07:32.305004 [debug] [Thread-1 (]: On model.olist_dw.stg_products: BEGIN
+[0m13:07:32.305179 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m13:07:32.305354 [debug] [Thread-2 (]: Using postgres connection "model.olist_dw.stg_reviews"
+[0m13:07:32.305573 [debug] [Thread-4 (]: Using postgres connection "model.olist_dw.stg_sellers"
+[0m13:07:32.305726 [debug] [Thread-2 (]: On model.olist_dw.stg_reviews: BEGIN
+[0m13:07:32.305888 [debug] [Thread-4 (]: On model.olist_dw.stg_sellers: BEGIN
+[0m13:07:32.306043 [debug] [Thread-2 (]: Opening a new connection, currently in state closed
+[0m13:07:32.306186 [debug] [Thread-4 (]: Opening a new connection, currently in state closed
+[0m13:07:32.720557 [debug] [Thread-2 (]: SQL status: BEGIN in 0.0 seconds
+[0m13:07:32.721339 [debug] [Thread-4 (]: SQL status: BEGIN in 0.0 seconds
+[0m13:07:32.721930 [debug] [Thread-2 (]: Using postgres connection "model.olist_dw.stg_reviews"
+[0m13:07:32.722658 [debug] [Thread-4 (]: Using postgres connection "model.olist_dw.stg_sellers"
+[0m13:07:32.723083 [debug] [Thread-2 (]: On model.olist_dw.stg_reviews: /* {"app": "dbt", "dbt_version": "1.7.9", "profile_name": "olist_dw", "target_name": "dev", "node_id": "model.olist_dw.stg_reviews"} */
+
+  create view "postgres"."analytics"."stg_reviews__dbt_tmp"
+    
+    
+  as (
+    SELECT 
+    review_id,
+    order_id,
+    review_score,
+    review_comment_title,
+    review_comment_message,
+    CAST(review_creation_date AS TIMESTAMP) AS creation_date,
+    CAST(review_answer_timestamp AS TIMESTAMP) AS answer_timestamp
+FROM "postgres"."raw"."olist_order_reviews"
+  );
+[0m13:07:32.723466 [debug] [Thread-4 (]: On model.olist_dw.stg_sellers: /* {"app": "dbt", "dbt_version": "1.7.9", "profile_name": "olist_dw", "target_name": "dev", "node_id": "model.olist_dw.stg_sellers"} */
+
+  create view "postgres"."analytics"."stg_sellers__dbt_tmp"
+    
+    
+  as (
+    SELECT 
+    seller_id,
+    seller_zip_code_prefix AS zip_code_prefix,
+    seller_city AS city,
+    seller_state AS state
+FROM "postgres"."raw"."olist_sellers"
+WHERE seller_id IS NOT NULL
+  );
+[0m13:07:32.726320 [debug] [Thread-1 (]: SQL status: BEGIN in 0.0 seconds
+[0m13:07:32.726851 [debug] [Thread-1 (]: Using postgres connection "model.olist_dw.stg_products"
+[0m13:07:32.727250 [debug] [Thread-1 (]: On model.olist_dw.stg_products: /* {"app": "dbt", "dbt_version": "1.7.9", "profile_name": "olist_dw", "target_name": "dev", "node_id": "model.olist_dw.stg_products"} */
+
+  create view "postgres"."analytics"."stg_products__dbt_tmp"
+    
+    
+  as (
+    SELECT 
+    p.product_id,
+    p.product_category_name,
+    t.product_category_name_english,
+    p.product_name_lenght AS product_name_length,
+    p.product_description_lenght AS product_description_length,
+    p.product_photos_qty,
+    p.product_weight_g AS weight_g,
+    p.product_length_cm AS length_cm,
+    p.product_height_cm AS height_cm,
+    p.product_width_cm AS width_cm
+FROM "postgres"."raw"."olist_products" p
+LEFT JOIN "postgres"."raw"."product_category_name_translation" t
+  ON p.product_category_name = t.product_category_name
+WHERE p.product_id IS NOT NULL
+  );
+[0m13:07:32.769134 [debug] [Thread-2 (]: SQL status: CREATE VIEW in 0.0 seconds
+[0m13:07:32.770032 [debug] [Thread-4 (]: SQL status: CREATE VIEW in 0.0 seconds
+[0m13:07:32.774839 [debug] [Thread-2 (]: Using postgres connection "model.olist_dw.stg_reviews"
+[0m13:07:32.779341 [debug] [Thread-4 (]: Using postgres connection "model.olist_dw.stg_sellers"
+[0m13:07:32.779859 [debug] [Thread-1 (]: SQL status: CREATE VIEW in 0.0 seconds
+[0m13:07:32.780257 [debug] [Thread-2 (]: On model.olist_dw.stg_reviews: /* {"app": "dbt", "dbt_version": "1.7.9", "profile_name": "olist_dw", "target_name": "dev", "node_id": "model.olist_dw.stg_reviews"} */
+alter table "postgres"."analytics"."stg_reviews__dbt_tmp" rename to "stg_reviews"
+[0m13:07:32.780644 [debug] [Thread-4 (]: On model.olist_dw.stg_sellers: /* {"app": "dbt", "dbt_version": "1.7.9", "profile_name": "olist_dw", "target_name": "dev", "node_id": "model.olist_dw.stg_sellers"} */
+alter table "postgres"."analytics"."stg_sellers__dbt_tmp" rename to "stg_sellers"
+[0m13:07:32.783248 [debug] [Thread-1 (]: Using postgres connection "model.olist_dw.stg_products"
+[0m13:07:32.783717 [debug] [Thread-1 (]: On model.olist_dw.stg_products: /* {"app": "dbt", "dbt_version": "1.7.9", "profile_name": "olist_dw", "target_name": "dev", "node_id": "model.olist_dw.stg_products"} */
+alter table "postgres"."analytics"."stg_products__dbt_tmp" rename to "stg_products"
+[0m13:07:32.826965 [debug] [Thread-2 (]: SQL status: ALTER TABLE in 0.0 seconds
+[0m13:07:32.827922 [debug] [Thread-4 (]: SQL status: ALTER TABLE in 0.0 seconds
+[0m13:07:32.830971 [debug] [Thread-2 (]: On model.olist_dw.stg_reviews: COMMIT
+[0m13:07:32.831437 [debug] [Thread-1 (]: SQL status: ALTER TABLE in 0.0 seconds
+[0m13:07:32.833357 [debug] [Thread-4 (]: On model.olist_dw.stg_sellers: COMMIT
+[0m13:07:32.833865 [debug] [Thread-2 (]: Using postgres connection "model.olist_dw.stg_reviews"
+[0m13:07:32.835995 [debug] [Thread-1 (]: On model.olist_dw.stg_products: COMMIT
+[0m13:07:32.836447 [debug] [Thread-4 (]: Using postgres connection "model.olist_dw.stg_sellers"
+[0m13:07:32.836801 [debug] [Thread-2 (]: On model.olist_dw.stg_reviews: COMMIT
+[0m13:07:32.837143 [debug] [Thread-1 (]: Using postgres connection "model.olist_dw.stg_products"
+[0m13:07:32.837480 [debug] [Thread-4 (]: On model.olist_dw.stg_sellers: COMMIT
+[0m13:07:32.837890 [debug] [Thread-1 (]: On model.olist_dw.stg_products: COMMIT
+[0m13:07:32.882088 [debug] [Thread-2 (]: SQL status: COMMIT in 0.0 seconds
+[0m13:07:32.883197 [debug] [Thread-1 (]: SQL status: COMMIT in 0.0 seconds
+[0m13:07:32.884184 [debug] [Thread-4 (]: SQL status: COMMIT in 0.0 seconds
+[0m13:07:32.888515 [debug] [Thread-2 (]: Applying DROP to: "postgres"."analytics"."stg_reviews__dbt_backup"
+[0m13:07:32.892732 [debug] [Thread-1 (]: Applying DROP to: "postgres"."analytics"."stg_products__dbt_backup"
+[0m13:07:32.895323 [debug] [Thread-4 (]: Applying DROP to: "postgres"."analytics"."stg_sellers__dbt_backup"
+[0m13:07:32.896282 [debug] [Thread-2 (]: Using postgres connection "model.olist_dw.stg_reviews"
+[0m13:07:32.897079 [debug] [Thread-1 (]: Using postgres connection "model.olist_dw.stg_products"
+[0m13:07:32.897788 [debug] [Thread-4 (]: Using postgres connection "model.olist_dw.stg_sellers"
+[0m13:07:32.898091 [debug] [Thread-2 (]: On model.olist_dw.stg_reviews: /* {"app": "dbt", "dbt_version": "1.7.9", "profile_name": "olist_dw", "target_name": "dev", "node_id": "model.olist_dw.stg_reviews"} */
+drop view if exists "postgres"."analytics"."stg_reviews__dbt_backup" cascade
+[0m13:07:32.898369 [debug] [Thread-1 (]: On model.olist_dw.stg_products: /* {"app": "dbt", "dbt_version": "1.7.9", "profile_name": "olist_dw", "target_name": "dev", "node_id": "model.olist_dw.stg_products"} */
+drop view if exists "postgres"."analytics"."stg_products__dbt_backup" cascade
+[0m13:07:32.898640 [debug] [Thread-4 (]: On model.olist_dw.stg_sellers: /* {"app": "dbt", "dbt_version": "1.7.9", "profile_name": "olist_dw", "target_name": "dev", "node_id": "model.olist_dw.stg_sellers"} */
+drop view if exists "postgres"."analytics"."stg_sellers__dbt_backup" cascade
+[0m13:07:32.943242 [debug] [Thread-2 (]: SQL status: DROP VIEW in 0.0 seconds
+[0m13:07:32.945043 [debug] [Thread-2 (]: Timing info for model.olist_dw.stg_reviews (execute): 13:07:32.300648 => 13:07:32.944857
+[0m13:07:32.945392 [debug] [Thread-2 (]: On model.olist_dw.stg_reviews: Close
+[0m13:07:32.945875 [debug] [Thread-4 (]: SQL status: DROP VIEW in 0.0 seconds
+[0m13:07:32.947292 [debug] [Thread-4 (]: Timing info for model.olist_dw.stg_sellers (execute): 13:07:32.302978 => 13:07:32.947122
+[0m13:07:32.947671 [debug] [Thread-4 (]: On model.olist_dw.stg_sellers: Close
+[0m13:07:32.948356 [debug] [Thread-2 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'df0826bf-3802-4c05-a88b-5bddd5006c9a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10d3dc7d0>]}
+[0m13:07:32.948851 [debug] [Thread-1 (]: SQL status: DROP VIEW in 0.0 seconds
+[0m13:07:32.949193 [debug] [Thread-4 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'df0826bf-3802-4c05-a88b-5bddd5006c9a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10d3de8d0>]}
+[0m13:07:32.950164 [debug] [Thread-1 (]: Timing info for model.olist_dw.stg_products (execute): 13:07:32.298097 => 13:07:32.950067
+[0m13:07:32.949462 [info ] [Thread-2 (]: 6 of 15 OK created sql view model analytics.stg_reviews ........................ [[32mCREATE VIEW[0m in 0.65s]
+[0m13:07:32.950616 [info ] [Thread-4 (]: 7 of 15 OK created sql view model analytics.stg_sellers ........................ [[32mCREATE VIEW[0m in 0.66s]
+[0m13:07:32.950792 [debug] [Thread-1 (]: On model.olist_dw.stg_products: Close
+[0m13:07:32.951162 [debug] [Thread-2 (]: Finished running node model.olist_dw.stg_reviews
+[0m13:07:32.951368 [debug] [Thread-4 (]: Finished running node model.olist_dw.stg_sellers
+[0m13:07:32.951770 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'df0826bf-3802-4c05-a88b-5bddd5006c9a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10d3dc350>]}
+[0m13:07:32.952071 [info ] [Thread-1 (]: 5 of 15 OK created sql view model analytics.stg_products ....................... [[32mCREATE VIEW[0m in 0.66s]
+[0m13:07:32.952284 [debug] [Thread-3 (]: Began running node model.olist_dw.int_orders_enriched
+[0m13:07:32.952634 [debug] [Thread-1 (]: Finished running node model.olist_dw.stg_products
+[0m13:07:32.952817 [info ] [Thread-3 (]: 8 of 15 START sql view model analytics.int_orders_enriched ..................... [RUN]
+[0m13:07:32.953129 [debug] [Thread-3 (]: Re-using an available connection from the pool (formerly model.olist_dw.stg_orders, now model.olist_dw.int_orders_enriched)
+[0m13:07:32.953271 [debug] [Thread-3 (]: Began compiling node model.olist_dw.int_orders_enriched
+[0m13:07:32.955056 [debug] [Thread-3 (]: Writing injected SQL for node "model.olist_dw.int_orders_enriched"
+[0m13:07:32.956335 [debug] [Thread-3 (]: Timing info for model.olist_dw.int_orders_enriched (compile): 13:07:32.953355 => 13:07:32.956008
+[0m13:07:32.956725 [debug] [Thread-3 (]: Began executing node model.olist_dw.int_orders_enriched
+[0m13:07:32.961839 [debug] [Thread-3 (]: Writing runtime sql for node "model.olist_dw.int_orders_enriched"
+[0m13:07:32.962787 [debug] [Thread-3 (]: Using postgres connection "model.olist_dw.int_orders_enriched"
+[0m13:07:32.963312 [debug] [Thread-3 (]: On model.olist_dw.int_orders_enriched: BEGIN
+[0m13:07:32.963499 [debug] [Thread-3 (]: Opening a new connection, currently in state closed
+[0m13:07:33.372273 [debug] [Thread-3 (]: SQL status: BEGIN in 0.0 seconds
+[0m13:07:33.373335 [debug] [Thread-3 (]: Using postgres connection "model.olist_dw.int_orders_enriched"
+[0m13:07:33.373864 [debug] [Thread-3 (]: On model.olist_dw.int_orders_enriched: /* {"app": "dbt", "dbt_version": "1.7.9", "profile_name": "olist_dw", "target_name": "dev", "node_id": "model.olist_dw.int_orders_enriched"} */
+
+  create view "postgres"."analytics"."int_orders_enriched__dbt_tmp"
+    
+    
+  as (
+    SELECT 
+    o.order_id,
+    o.customer_id,
+    o.order_status,
+    o.purchase_timestamp,
+    o.delivered_customer_date,
+    o.estimated_delivery_date,
+    EXTRACT(EPOCH FROM (o.delivered_customer_date - o.purchase_timestamp))/86400 AS days_to_deliver,
+    o.delivered_customer_date > o.estimated_delivery_date AS is_late_delivery,
+    i.product_id,
+    i.seller_id,
+    i.price,
+    i.freight_value,
+    p.payment_value,
+    p.payment_type,
+    r.review_score
+FROM "postgres"."analytics"."stg_orders" o
+LEFT JOIN "postgres"."analytics"."stg_order_items" i ON o.order_id = i.order_id
+LEFT JOIN "postgres"."analytics"."stg_payments" p ON o.order_id = p.order_id
+LEFT JOIN "postgres"."analytics"."stg_reviews" r ON o.order_id = r.order_id
+  );
+[0m13:07:33.427945 [debug] [Thread-3 (]: SQL status: CREATE VIEW in 0.0 seconds
+[0m13:07:33.430663 [debug] [Thread-3 (]: Using postgres connection "model.olist_dw.int_orders_enriched"
+[0m13:07:33.430960 [debug] [Thread-3 (]: On model.olist_dw.int_orders_enriched: /* {"app": "dbt", "dbt_version": "1.7.9", "profile_name": "olist_dw", "target_name": "dev", "node_id": "model.olist_dw.int_orders_enriched"} */
+alter table "postgres"."analytics"."int_orders_enriched__dbt_tmp" rename to "int_orders_enriched"
+[0m13:07:33.483354 [debug] [Thread-3 (]: SQL status: ALTER TABLE in 0.0 seconds
+[0m13:07:33.486267 [debug] [Thread-3 (]: On model.olist_dw.int_orders_enriched: COMMIT
+[0m13:07:33.487052 [debug] [Thread-3 (]: Using postgres connection "model.olist_dw.int_orders_enriched"
+[0m13:07:33.487469 [debug] [Thread-3 (]: On model.olist_dw.int_orders_enriched: COMMIT
+[0m13:07:33.531915 [debug] [Thread-3 (]: SQL status: COMMIT in 0.0 seconds
+[0m13:07:33.536509 [debug] [Thread-3 (]: Applying DROP to: "postgres"."analytics"."int_orders_enriched__dbt_backup"
+[0m13:07:33.538378 [debug] [Thread-3 (]: Using postgres connection "model.olist_dw.int_orders_enriched"
+[0m13:07:33.538900 [debug] [Thread-3 (]: On model.olist_dw.int_orders_enriched: /* {"app": "dbt", "dbt_version": "1.7.9", "profile_name": "olist_dw", "target_name": "dev", "node_id": "model.olist_dw.int_orders_enriched"} */
+drop view if exists "postgres"."analytics"."int_orders_enriched__dbt_backup" cascade
+[0m13:07:33.582534 [debug] [Thread-3 (]: SQL status: DROP VIEW in 0.0 seconds
+[0m13:07:33.585460 [debug] [Thread-3 (]: Timing info for model.olist_dw.int_orders_enriched (execute): 13:07:32.956938 => 13:07:33.585160
+[0m13:07:33.586045 [debug] [Thread-3 (]: On model.olist_dw.int_orders_enriched: Close
+[0m13:07:33.587493 [debug] [Thread-3 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'df0826bf-3802-4c05-a88b-5bddd5006c9a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10d3dc2f0>]}
+[0m13:07:33.588239 [info ] [Thread-3 (]: 8 of 15 OK created sql view model analytics.int_orders_enriched ................ [[32mCREATE VIEW[0m in 0.63s]
+[0m13:07:33.588872 [debug] [Thread-3 (]: Finished running node model.olist_dw.int_orders_enriched
+[0m13:07:33.589906 [debug] [Thread-1 (]: Began running node model.olist_dw.int_seller_performance
+[0m13:07:33.590350 [debug] [Thread-3 (]: Began running node model.olist_dw.mart_revenue_summary
+[0m13:07:33.591313 [debug] [Thread-4 (]: Began running node model.olist_dw.int_delivery_analysis
+[0m13:07:33.591687 [debug] [Thread-2 (]: Began running node model.olist_dw.int_customer_rfm
+[0m13:07:33.590931 [info ] [Thread-1 (]: 11 of 15 START sql view model analytics.int_seller_performance ................. [RUN]
+[0m13:07:33.592287 [info ] [Thread-3 (]: 12 of 15 START sql table model analytics.mart_revenue_summary .................. [RUN]
+[0m13:07:33.592742 [info ] [Thread-4 (]: 10 of 15 START sql view model analytics.int_delivery_analysis .................. [RUN]
+[0m13:07:33.593180 [info ] [Thread-2 (]: 9 of 15 START sql view model analytics.int_customer_rfm ........................ [RUN]
+[0m13:07:33.593981 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.olist_dw.stg_products, now model.olist_dw.int_seller_performance)
+[0m13:07:33.594658 [debug] [Thread-3 (]: Re-using an available connection from the pool (formerly model.olist_dw.int_orders_enriched, now model.olist_dw.mart_revenue_summary)
+[0m13:07:33.595285 [debug] [Thread-4 (]: Re-using an available connection from the pool (formerly model.olist_dw.stg_sellers, now model.olist_dw.int_delivery_analysis)
+[0m13:07:33.595844 [debug] [Thread-2 (]: Re-using an available connection from the pool (formerly model.olist_dw.stg_reviews, now model.olist_dw.int_customer_rfm)
+[0m13:07:33.596193 [debug] [Thread-1 (]: Began compiling node model.olist_dw.int_seller_performance
+[0m13:07:33.596510 [debug] [Thread-3 (]: Began compiling node model.olist_dw.mart_revenue_summary
+[0m13:07:33.596802 [debug] [Thread-4 (]: Began compiling node model.olist_dw.int_delivery_analysis
+[0m13:07:33.597081 [debug] [Thread-2 (]: Began compiling node model.olist_dw.int_customer_rfm
+[0m13:07:33.601575 [debug] [Thread-1 (]: Writing injected SQL for node "model.olist_dw.int_seller_performance"
+[0m13:07:33.604634 [debug] [Thread-3 (]: Writing injected SQL for node "model.olist_dw.mart_revenue_summary"
+[0m13:07:33.606906 [debug] [Thread-4 (]: Writing injected SQL for node "model.olist_dw.int_delivery_analysis"
+[0m13:07:33.609275 [debug] [Thread-2 (]: Writing injected SQL for node "model.olist_dw.int_customer_rfm"
+[0m13:07:33.610268 [debug] [Thread-2 (]: Timing info for model.olist_dw.int_customer_rfm (compile): 13:07:33.607115 => 13:07:33.610039
+[0m13:07:33.610554 [debug] [Thread-2 (]: Began executing node model.olist_dw.int_customer_rfm
+[0m13:07:33.610878 [debug] [Thread-3 (]: Timing info for model.olist_dw.mart_revenue_summary (compile): 13:07:33.601894 => 13:07:33.610716
+[0m13:07:33.611167 [debug] [Thread-4 (]: Timing info for model.olist_dw.int_delivery_analysis (compile): 13:07:33.604860 => 13:07:33.611043
+[0m13:07:33.613841 [debug] [Thread-2 (]: Writing runtime sql for node "model.olist_dw.int_customer_rfm"
+[0m13:07:33.614116 [debug] [Thread-1 (]: Timing info for model.olist_dw.int_seller_performance (compile): 13:07:33.597274 => 13:07:33.613985
+[0m13:07:33.614360 [debug] [Thread-3 (]: Began executing node model.olist_dw.mart_revenue_summary
+[0m13:07:33.614588 [debug] [Thread-4 (]: Began executing node model.olist_dw.int_delivery_analysis
+[0m13:07:33.614873 [debug] [Thread-1 (]: Began executing node model.olist_dw.int_seller_performance
+[0m13:07:33.630888 [debug] [Thread-4 (]: Writing runtime sql for node "model.olist_dw.int_delivery_analysis"
+[0m13:07:33.632919 [debug] [Thread-3 (]: Writing runtime sql for node "model.olist_dw.mart_revenue_summary"
+[0m13:07:33.634948 [debug] [Thread-1 (]: Writing runtime sql for node "model.olist_dw.int_seller_performance"
+[0m13:07:33.635192 [debug] [Thread-2 (]: Using postgres connection "model.olist_dw.int_customer_rfm"
+[0m13:07:33.635520 [debug] [Thread-2 (]: On model.olist_dw.int_customer_rfm: BEGIN
+[0m13:07:33.635716 [debug] [Thread-2 (]: Opening a new connection, currently in state closed
+[0m13:07:33.636023 [debug] [Thread-1 (]: Using postgres connection "model.olist_dw.int_seller_performance"
+[0m13:07:33.636214 [debug] [Thread-4 (]: Using postgres connection "model.olist_dw.int_delivery_analysis"
+[0m13:07:33.636390 [debug] [Thread-3 (]: Using postgres connection "model.olist_dw.mart_revenue_summary"
+[0m13:07:33.636554 [debug] [Thread-1 (]: On model.olist_dw.int_seller_performance: BEGIN
+[0m13:07:33.636717 [debug] [Thread-4 (]: On model.olist_dw.int_delivery_analysis: BEGIN
+[0m13:07:33.636878 [debug] [Thread-3 (]: On model.olist_dw.mart_revenue_summary: BEGIN
+[0m13:07:33.637037 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m13:07:33.637196 [debug] [Thread-4 (]: Opening a new connection, currently in state closed
+[0m13:07:33.637347 [debug] [Thread-3 (]: Opening a new connection, currently in state closed
+[0m13:07:34.023843 [debug] [Thread-3 (]: SQL status: BEGIN in 0.0 seconds
+[0m13:07:34.024640 [debug] [Thread-3 (]: Using postgres connection "model.olist_dw.mart_revenue_summary"
+[0m13:07:34.025143 [debug] [Thread-3 (]: On model.olist_dw.mart_revenue_summary: /* {"app": "dbt", "dbt_version": "1.7.9", "profile_name": "olist_dw", "target_name": "dev", "node_id": "model.olist_dw.mart_revenue_summary"} */
+
+  
+    
+
+  create  table "postgres"."analytics"."mart_revenue_summary__dbt_tmp"
+  
+  
+    as
+  
+  (
+    SELECT 
+    DATE_TRUNC('month', o.purchase_timestamp) AS order_month,
+    p.product_category_name_english,
+    c.state AS customer_state,
+    COUNT(DISTINCT o.order_id) AS order_count,
+    SUM(o.payment_value) AS gmv,
+    SUM(o.freight_value) AS freight_value,
+    AVG(o.payment_value) AS aov
+FROM "postgres"."analytics"."int_orders_enriched" o
+LEFT JOIN "postgres"."analytics"."stg_products" p ON o.product_id = p.product_id
+LEFT JOIN "postgres"."analytics"."stg_customers" c ON o.customer_id = c.customer_id
+GROUP BY 1, 2, 3
+  );
+  
+[0m13:07:34.026114 [debug] [Thread-1 (]: SQL status: BEGIN in 0.0 seconds
+[0m13:07:34.026525 [debug] [Thread-1 (]: Using postgres connection "model.olist_dw.int_seller_performance"
+[0m13:07:34.026897 [debug] [Thread-1 (]: On model.olist_dw.int_seller_performance: /* {"app": "dbt", "dbt_version": "1.7.9", "profile_name": "olist_dw", "target_name": "dev", "node_id": "model.olist_dw.int_seller_performance"} */
+
+  create view "postgres"."analytics"."int_seller_performance__dbt_tmp"
+    
+    
+  as (
+    SELECT 
+    seller_id,
+    COUNT(DISTINCT order_id) AS total_order_count,
+    SUM(payment_value) AS total_revenue,
+    AVG(review_score) AS average_review_score,
+    COUNT(CASE WHEN is_late_delivery THEN 1 END)::FLOAT / NULLIF(COUNT(order_id), 0) AS late_delivery_rate
+FROM "postgres"."analytics"."int_orders_enriched"
+WHERE seller_id IS NOT NULL
+GROUP BY seller_id
+  );
+[0m13:07:34.032000 [debug] [Thread-2 (]: SQL status: BEGIN in 0.0 seconds
+[0m13:07:34.032460 [debug] [Thread-2 (]: Using postgres connection "model.olist_dw.int_customer_rfm"
+[0m13:07:34.032928 [debug] [Thread-2 (]: On model.olist_dw.int_customer_rfm: /* {"app": "dbt", "dbt_version": "1.7.9", "profile_name": "olist_dw", "target_name": "dev", "node_id": "model.olist_dw.int_customer_rfm"} */
+
+  create view "postgres"."analytics"."int_customer_rfm__dbt_tmp"
+    
+    
+  as (
+    WITH customer_orders AS (
+    SELECT 
+        c.customer_unique_id,
+        c.customer_id,
+        o.purchase_timestamp,
+        o.payment_value,
+        o.order_id
+    FROM "postgres"."analytics"."stg_customers" c
+    JOIN "postgres"."analytics"."int_orders_enriched" o ON c.customer_id = o.customer_id
+),
+rfm_base AS (
+    SELECT 
+        customer_unique_id,
+        MAX(purchase_timestamp) AS last_order_date,
+        COUNT(DISTINCT order_id) AS total_orders,
+        SUM(payment_value) AS total_spend
+    FROM customer_orders
+    GROUP BY customer_unique_id
+),
+rfm_scoring AS (
+    SELECT 
+        customer_unique_id,
+        last_order_date,
+        total_orders,
+        total_spend,
+        EXTRACT(EPOCH FROM (CURRENT_TIMESTAMP - last_order_date))/86400 AS days_since_last_order,
+        NTILE(5) OVER (ORDER BY last_order_date ASC) AS r_score,
+        NTILE(5) OVER (ORDER BY total_orders ASC) AS f_score,
+        NTILE(5) OVER (ORDER BY total_spend ASC) AS m_score
+    FROM rfm_base
+)
+SELECT 
+    customer_unique_id,
+    days_since_last_order,
+    total_orders,
+    total_spend,
+    CASE 
+        WHEN r_score >= 4 AND f_score >= 4 AND m_score >= 4 THEN 'Champions'
+        WHEN r_score >= 3 AND f_score >= 3 THEN 'Loyal'
+        WHEN r_score <= 2 AND f_score >= 3 THEN 'At-Risk'
+        ELSE 'Lost'
+    END AS rfm_segment,
+    r_score <= 2 AS churn_risk_flag
+FROM rfm_scoring
+  );
+[0m13:07:34.050879 [debug] [Thread-4 (]: SQL status: BEGIN in 0.0 seconds
+[0m13:07:34.051803 [debug] [Thread-4 (]: Using postgres connection "model.olist_dw.int_delivery_analysis"
+[0m13:07:34.052396 [debug] [Thread-4 (]: On model.olist_dw.int_delivery_analysis: /* {"app": "dbt", "dbt_version": "1.7.9", "profile_name": "olist_dw", "target_name": "dev", "node_id": "model.olist_dw.int_delivery_analysis"} */
+
+  create view "postgres"."analytics"."int_delivery_analysis__dbt_tmp"
+    
+    
+  as (
+    SELECT 
+    o.order_id,
+    o.is_late_delivery,
+    o.days_to_deliver,
+    EXTRACT(EPOCH FROM (o.delivered_customer_date - o.estimated_delivery_date))/86400 AS delay_in_days,
+    p.product_category_name_english,
+    s.state AS seller_state,
+    c.state AS customer_state,
+    o.review_score
+FROM "postgres"."analytics"."int_orders_enriched" o
+LEFT JOIN "postgres"."analytics"."stg_products" p ON o.product_id = p.product_id
+LEFT JOIN "postgres"."analytics"."stg_sellers" s ON o.seller_id = s.seller_id
+LEFT JOIN "postgres"."analytics"."stg_customers" c ON o.customer_id = c.customer_id
+WHERE o.delivered_customer_date IS NOT NULL
+  );
+[0m13:07:34.078589 [debug] [Thread-1 (]: SQL status: CREATE VIEW in 0.0 seconds
+[0m13:07:34.084029 [debug] [Thread-1 (]: Using postgres connection "model.olist_dw.int_seller_performance"
+[0m13:07:34.084804 [debug] [Thread-2 (]: SQL status: CREATE VIEW in 0.0 seconds
+[0m13:07:34.085311 [debug] [Thread-1 (]: On model.olist_dw.int_seller_performance: /* {"app": "dbt", "dbt_version": "1.7.9", "profile_name": "olist_dw", "target_name": "dev", "node_id": "model.olist_dw.int_seller_performance"} */
+alter table "postgres"."analytics"."int_seller_performance__dbt_tmp" rename to "int_seller_performance"
+[0m13:07:34.089802 [debug] [Thread-2 (]: Using postgres connection "model.olist_dw.int_customer_rfm"
+[0m13:07:34.090479 [debug] [Thread-2 (]: On model.olist_dw.int_customer_rfm: /* {"app": "dbt", "dbt_version": "1.7.9", "profile_name": "olist_dw", "target_name": "dev", "node_id": "model.olist_dw.int_customer_rfm"} */
+alter table "postgres"."analytics"."int_customer_rfm__dbt_tmp" rename to "int_customer_rfm"
+[0m13:07:34.101648 [debug] [Thread-4 (]: SQL status: CREATE VIEW in 0.0 seconds
+[0m13:07:34.107223 [debug] [Thread-4 (]: Using postgres connection "model.olist_dw.int_delivery_analysis"
+[0m13:07:34.107676 [debug] [Thread-4 (]: On model.olist_dw.int_delivery_analysis: /* {"app": "dbt", "dbt_version": "1.7.9", "profile_name": "olist_dw", "target_name": "dev", "node_id": "model.olist_dw.int_delivery_analysis"} */
+alter table "postgres"."analytics"."int_delivery_analysis__dbt_tmp" rename to "int_delivery_analysis"
+[0m13:07:34.706471 [debug] [Thread-4 (]: SQL status: ALTER TABLE in 1.0 seconds
+[0m13:07:34.707475 [debug] [Thread-1 (]: SQL status: ALTER TABLE in 1.0 seconds
+[0m13:07:34.708035 [debug] [Thread-2 (]: SQL status: ALTER TABLE in 1.0 seconds
+[0m13:07:34.710559 [debug] [Thread-4 (]: On model.olist_dw.int_delivery_analysis: COMMIT
+[0m13:07:34.712331 [debug] [Thread-1 (]: On model.olist_dw.int_seller_performance: COMMIT
+[0m13:07:34.713777 [debug] [Thread-2 (]: On model.olist_dw.int_customer_rfm: COMMIT
+[0m13:07:34.714084 [debug] [Thread-4 (]: Using postgres connection "model.olist_dw.int_delivery_analysis"
+[0m13:07:34.714362 [debug] [Thread-1 (]: Using postgres connection "model.olist_dw.int_seller_performance"
+[0m13:07:34.714612 [debug] [Thread-2 (]: Using postgres connection "model.olist_dw.int_customer_rfm"
+[0m13:07:34.714927 [debug] [Thread-4 (]: On model.olist_dw.int_delivery_analysis: COMMIT
+[0m13:07:34.715235 [debug] [Thread-1 (]: On model.olist_dw.int_seller_performance: COMMIT
+[0m13:07:34.715502 [debug] [Thread-2 (]: On model.olist_dw.int_customer_rfm: COMMIT
+[0m13:07:34.900869 [debug] [Thread-2 (]: SQL status: COMMIT in 0.0 seconds
+[0m13:07:34.901291 [debug] [Thread-1 (]: SQL status: COMMIT in 0.0 seconds
+[0m13:07:34.902895 [debug] [Thread-2 (]: Applying DROP to: "postgres"."analytics"."int_customer_rfm__dbt_backup"
+[0m13:07:34.904068 [debug] [Thread-1 (]: Applying DROP to: "postgres"."analytics"."int_seller_performance__dbt_backup"
+[0m13:07:34.904310 [debug] [Thread-4 (]: SQL status: COMMIT in 0.0 seconds
+[0m13:07:34.904880 [debug] [Thread-2 (]: Using postgres connection "model.olist_dw.int_customer_rfm"
+[0m13:07:34.905347 [debug] [Thread-1 (]: Using postgres connection "model.olist_dw.int_seller_performance"
+[0m13:07:34.906824 [debug] [Thread-4 (]: Applying DROP to: "postgres"."analytics"."int_delivery_analysis__dbt_backup"
+[0m13:07:34.907017 [debug] [Thread-2 (]: On model.olist_dw.int_customer_rfm: /* {"app": "dbt", "dbt_version": "1.7.9", "profile_name": "olist_dw", "target_name": "dev", "node_id": "model.olist_dw.int_customer_rfm"} */
+drop view if exists "postgres"."analytics"."int_customer_rfm__dbt_backup" cascade
+[0m13:07:34.907194 [debug] [Thread-1 (]: On model.olist_dw.int_seller_performance: /* {"app": "dbt", "dbt_version": "1.7.9", "profile_name": "olist_dw", "target_name": "dev", "node_id": "model.olist_dw.int_seller_performance"} */
+drop view if exists "postgres"."analytics"."int_seller_performance__dbt_backup" cascade
+[0m13:07:34.907577 [debug] [Thread-4 (]: Using postgres connection "model.olist_dw.int_delivery_analysis"
+[0m13:07:34.907827 [debug] [Thread-4 (]: On model.olist_dw.int_delivery_analysis: /* {"app": "dbt", "dbt_version": "1.7.9", "profile_name": "olist_dw", "target_name": "dev", "node_id": "model.olist_dw.int_delivery_analysis"} */
+drop view if exists "postgres"."analytics"."int_delivery_analysis__dbt_backup" cascade
+[0m13:07:35.308988 [debug] [Thread-2 (]: SQL status: DROP VIEW in 0.0 seconds
+[0m13:07:35.310025 [debug] [Thread-1 (]: SQL status: DROP VIEW in 0.0 seconds
+[0m13:07:35.312377 [debug] [Thread-2 (]: Timing info for model.olist_dw.int_customer_rfm (execute): 13:07:33.611297 => 13:07:35.312094
+[0m13:07:35.312883 [debug] [Thread-4 (]: SQL status: DROP VIEW in 0.0 seconds
+[0m13:07:35.314491 [debug] [Thread-1 (]: Timing info for model.olist_dw.int_seller_performance (execute): 13:07:33.633074 => 13:07:35.314256
+[0m13:07:35.314934 [debug] [Thread-2 (]: On model.olist_dw.int_customer_rfm: Close
+[0m13:07:35.316389 [debug] [Thread-4 (]: Timing info for model.olist_dw.int_delivery_analysis (execute): 13:07:33.629019 => 13:07:35.316173
+[0m13:07:35.316797 [debug] [Thread-1 (]: On model.olist_dw.int_seller_performance: Close
+[0m13:07:35.317259 [debug] [Thread-4 (]: On model.olist_dw.int_delivery_analysis: Close
+[0m13:07:35.318451 [debug] [Thread-2 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'df0826bf-3802-4c05-a88b-5bddd5006c9a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10d3de3f0>]}
+[0m13:07:35.319959 [debug] [Thread-4 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'df0826bf-3802-4c05-a88b-5bddd5006c9a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10d3de3f0>]}
+[0m13:07:35.319251 [info ] [Thread-2 (]: 9 of 15 OK created sql view model analytics.int_customer_rfm ................... [[32mCREATE VIEW[0m in 1.72s]
+[0m13:07:35.320780 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'df0826bf-3802-4c05-a88b-5bddd5006c9a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10d3de810>]}
+[0m13:07:35.321312 [info ] [Thread-4 (]: 10 of 15 OK created sql view model analytics.int_delivery_analysis ............. [[32mCREATE VIEW[0m in 1.72s]
+[0m13:07:35.321836 [debug] [Thread-2 (]: Finished running node model.olist_dw.int_customer_rfm
+[0m13:07:35.322258 [info ] [Thread-1 (]: 11 of 15 OK created sql view model analytics.int_seller_performance ............ [[32mCREATE VIEW[0m in 1.73s]
+[0m13:07:35.322747 [debug] [Thread-4 (]: Finished running node model.olist_dw.int_delivery_analysis
+[0m13:07:35.323428 [debug] [Thread-1 (]: Finished running node model.olist_dw.int_seller_performance
+[0m13:07:35.323806 [debug] [Thread-2 (]: Began running node model.olist_dw.mart_customer_segments
+[0m13:07:35.324751 [debug] [Thread-1 (]: Began running node model.olist_dw.mart_seller_scorecard
+[0m13:07:35.324425 [info ] [Thread-2 (]: 13 of 15 START sql table model analytics.mart_customer_segments ................ [RUN]
+[0m13:07:35.325124 [debug] [Thread-4 (]: Began running node model.olist_dw.mart_delivery_sla
+[0m13:07:35.325411 [info ] [Thread-1 (]: 15 of 15 START sql table model analytics.mart_seller_scorecard ................. [RUN]
+[0m13:07:35.326024 [debug] [Thread-2 (]: Re-using an available connection from the pool (formerly model.olist_dw.int_customer_rfm, now model.olist_dw.mart_customer_segments)
+[0m13:07:35.326363 [info ] [Thread-4 (]: 14 of 15 START sql table model analytics.mart_delivery_sla ..................... [RUN]
+[0m13:07:35.326959 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.olist_dw.int_seller_performance, now model.olist_dw.mart_seller_scorecard)
+[0m13:07:35.327375 [debug] [Thread-2 (]: Began compiling node model.olist_dw.mart_customer_segments
+[0m13:07:35.328014 [debug] [Thread-4 (]: Re-using an available connection from the pool (formerly model.olist_dw.int_delivery_analysis, now model.olist_dw.mart_delivery_sla)
+[0m13:07:35.328340 [debug] [Thread-1 (]: Began compiling node model.olist_dw.mart_seller_scorecard
+[0m13:07:35.330978 [debug] [Thread-2 (]: Writing injected SQL for node "model.olist_dw.mart_customer_segments"
+[0m13:07:35.331287 [debug] [Thread-4 (]: Began compiling node model.olist_dw.mart_delivery_sla
+[0m13:07:35.333277 [debug] [Thread-1 (]: Writing injected SQL for node "model.olist_dw.mart_seller_scorecard"
+[0m13:07:35.336251 [debug] [Thread-4 (]: Writing injected SQL for node "model.olist_dw.mart_delivery_sla"
+[0m13:07:35.337225 [debug] [Thread-2 (]: Timing info for model.olist_dw.mart_customer_segments (compile): 13:07:35.328549 => 13:07:35.337062
+[0m13:07:35.337618 [debug] [Thread-1 (]: Timing info for model.olist_dw.mart_seller_scorecard (compile): 13:07:35.331471 => 13:07:35.337395
+[0m13:07:35.337952 [debug] [Thread-4 (]: Timing info for model.olist_dw.mart_delivery_sla (compile): 13:07:35.333540 => 13:07:35.337798
+[0m13:07:35.338212 [debug] [Thread-2 (]: Began executing node model.olist_dw.mart_customer_segments
+[0m13:07:35.338473 [debug] [Thread-1 (]: Began executing node model.olist_dw.mart_seller_scorecard
+[0m13:07:35.338704 [debug] [Thread-4 (]: Began executing node model.olist_dw.mart_delivery_sla
+[0m13:07:35.341485 [debug] [Thread-2 (]: Writing runtime sql for node "model.olist_dw.mart_customer_segments"
+[0m13:07:35.343802 [debug] [Thread-1 (]: Writing runtime sql for node "model.olist_dw.mart_seller_scorecard"
+[0m13:07:35.346207 [debug] [Thread-4 (]: Writing runtime sql for node "model.olist_dw.mart_delivery_sla"
+[0m13:07:35.346700 [debug] [Thread-2 (]: Using postgres connection "model.olist_dw.mart_customer_segments"
+[0m13:07:35.346923 [debug] [Thread-2 (]: On model.olist_dw.mart_customer_segments: BEGIN
+[0m13:07:35.347156 [debug] [Thread-1 (]: Using postgres connection "model.olist_dw.mart_seller_scorecard"
+[0m13:07:35.347383 [debug] [Thread-2 (]: Opening a new connection, currently in state closed
+[0m13:07:35.347633 [debug] [Thread-1 (]: On model.olist_dw.mart_seller_scorecard: BEGIN
+[0m13:07:35.347937 [debug] [Thread-4 (]: Using postgres connection "model.olist_dw.mart_delivery_sla"
+[0m13:07:35.348130 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m13:07:35.348332 [debug] [Thread-4 (]: On model.olist_dw.mart_delivery_sla: BEGIN
+[0m13:07:35.348585 [debug] [Thread-4 (]: Opening a new connection, currently in state closed
+[0m13:07:42.354027 [debug] [Thread-3 (]: SQL status: SELECT 11860 in 8.0 seconds
+[0m13:07:42.359359 [debug] [Thread-3 (]: Using postgres connection "model.olist_dw.mart_revenue_summary"
+[0m13:07:42.359988 [debug] [Thread-3 (]: On model.olist_dw.mart_revenue_summary: /* {"app": "dbt", "dbt_version": "1.7.9", "profile_name": "olist_dw", "target_name": "dev", "node_id": "model.olist_dw.mart_revenue_summary"} */
+alter table "postgres"."analytics"."mart_revenue_summary__dbt_tmp" rename to "mart_revenue_summary"
+[0m13:07:42.394591 [debug] [Thread-1 (]: SQL status: BEGIN in 7.0 seconds
+[0m13:07:42.395358 [debug] [Thread-1 (]: Using postgres connection "model.olist_dw.mart_seller_scorecard"
+[0m13:07:42.395776 [debug] [Thread-1 (]: On model.olist_dw.mart_seller_scorecard: /* {"app": "dbt", "dbt_version": "1.7.9", "profile_name": "olist_dw", "target_name": "dev", "node_id": "model.olist_dw.mart_seller_scorecard"} */
+
+  
+    
+
+  create  table "postgres"."analytics"."mart_seller_scorecard__dbt_tmp"
+  
+  
+    as
+  
+  (
+    SELECT 
+    sp.seller_id,
+    sp.total_revenue,
+    sp.total_order_count,
+    sp.late_delivery_rate,
+    sp.average_review_score,
+    CASE 
+        WHEN sp.late_delivery_rate > 0.2 THEN TRUE 
+        ELSE FALSE 
+    END AS sla_breach_flag,
+    NTILE(4) OVER (ORDER BY sp.total_revenue DESC) AS seller_tier
+FROM "postgres"."analytics"."int_seller_performance" sp
+  );
+  
+[0m13:07:42.404440 [debug] [Thread-4 (]: SQL status: BEGIN in 7.0 seconds
+[0m13:07:42.404963 [debug] [Thread-2 (]: SQL status: BEGIN in 7.0 seconds
+[0m13:07:42.405348 [debug] [Thread-4 (]: Using postgres connection "model.olist_dw.mart_delivery_sla"
+[0m13:07:42.405669 [debug] [Thread-2 (]: Using postgres connection "model.olist_dw.mart_customer_segments"
+[0m13:07:42.405980 [debug] [Thread-4 (]: On model.olist_dw.mart_delivery_sla: /* {"app": "dbt", "dbt_version": "1.7.9", "profile_name": "olist_dw", "target_name": "dev", "node_id": "model.olist_dw.mart_delivery_sla"} */
+
+  
+    
+
+  create  table "postgres"."analytics"."mart_delivery_sla__dbt_tmp"
+  
+  
+    as
+  
+  (
+    SELECT 
+    order_id,
+    is_late_delivery,
+    days_to_deliver,
+    delay_in_days,
+    product_category_name_english,
+    seller_state,
+    customer_state,
+    review_score
+FROM "postgres"."analytics"."int_delivery_analysis"
+  );
+  
+[0m13:07:42.406280 [debug] [Thread-2 (]: On model.olist_dw.mart_customer_segments: /* {"app": "dbt", "dbt_version": "1.7.9", "profile_name": "olist_dw", "target_name": "dev", "node_id": "model.olist_dw.mart_customer_segments"} */
+
+  
+    
+
+  create  table "postgres"."analytics"."mart_customer_segments__dbt_tmp"
+  
+  
+    as
+  
+  (
+    SELECT 
+    customer_unique_id AS customer_id,
+    rfm_segment,
+    total_spend,
+    total_orders,
+    days_since_last_order,
+    churn_risk_flag
+FROM "postgres"."analytics"."int_customer_rfm"
+  );
+  
+[0m13:07:42.444616 [debug] [Thread-3 (]: SQL status: ALTER TABLE in 0.0 seconds
+[0m13:07:42.449887 [debug] [Thread-3 (]: On model.olist_dw.mart_revenue_summary: COMMIT
+[0m13:07:42.450275 [debug] [Thread-3 (]: Using postgres connection "model.olist_dw.mart_revenue_summary"
+[0m13:07:42.450552 [debug] [Thread-3 (]: On model.olist_dw.mart_revenue_summary: COMMIT
+[0m13:07:42.552403 [debug] [Thread-3 (]: SQL status: COMMIT in 0.0 seconds
+[0m13:07:42.557715 [debug] [Thread-3 (]: Applying DROP to: "postgres"."analytics"."mart_revenue_summary__dbt_backup"
+[0m13:07:42.562351 [debug] [Thread-3 (]: Using postgres connection "model.olist_dw.mart_revenue_summary"
+[0m13:07:42.562885 [debug] [Thread-3 (]: On model.olist_dw.mart_revenue_summary: /* {"app": "dbt", "dbt_version": "1.7.9", "profile_name": "olist_dw", "target_name": "dev", "node_id": "model.olist_dw.mart_revenue_summary"} */
+drop table if exists "postgres"."analytics"."mart_revenue_summary__dbt_backup" cascade
+[0m13:07:42.837708 [debug] [Thread-3 (]: SQL status: DROP TABLE in 0.0 seconds
+[0m13:07:42.840478 [debug] [Thread-3 (]: Timing info for model.olist_dw.mart_revenue_summary (execute): 13:07:33.615037 => 13:07:42.840159
+[0m13:07:42.841066 [debug] [Thread-3 (]: On model.olist_dw.mart_revenue_summary: Close
+[0m13:07:42.842602 [debug] [Thread-3 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'df0826bf-3802-4c05-a88b-5bddd5006c9a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10d2b7170>]}
+[0m13:07:42.843512 [info ] [Thread-3 (]: 12 of 15 OK created sql table model analytics.mart_revenue_summary ............. [[32mSELECT 11860[0m in 9.25s]
+[0m13:07:42.844221 [debug] [Thread-3 (]: Finished running node model.olist_dw.mart_revenue_summary
+[0m13:07:47.709557 [debug] [Thread-1 (]: SQL status: SELECT 3095 in 5.0 seconds
+[0m13:07:47.715248 [debug] [Thread-1 (]: Using postgres connection "model.olist_dw.mart_seller_scorecard"
+[0m13:07:47.715872 [debug] [Thread-1 (]: On model.olist_dw.mart_seller_scorecard: /* {"app": "dbt", "dbt_version": "1.7.9", "profile_name": "olist_dw", "target_name": "dev", "node_id": "model.olist_dw.mart_seller_scorecard"} */
+alter table "postgres"."analytics"."mart_seller_scorecard__dbt_tmp" rename to "mart_seller_scorecard"
+[0m13:07:47.818934 [debug] [Thread-1 (]: SQL status: ALTER TABLE in 0.0 seconds
+[0m13:07:47.821690 [debug] [Thread-1 (]: On model.olist_dw.mart_seller_scorecard: COMMIT
+[0m13:07:47.822165 [debug] [Thread-1 (]: Using postgres connection "model.olist_dw.mart_seller_scorecard"
+[0m13:07:47.822497 [debug] [Thread-1 (]: On model.olist_dw.mart_seller_scorecard: COMMIT
+[0m13:07:47.904005 [debug] [Thread-1 (]: SQL status: COMMIT in 0.0 seconds
+[0m13:07:47.907761 [debug] [Thread-1 (]: Applying DROP to: "postgres"."analytics"."mart_seller_scorecard__dbt_backup"
+[0m13:07:47.908797 [debug] [Thread-1 (]: Using postgres connection "model.olist_dw.mart_seller_scorecard"
+[0m13:07:47.909163 [debug] [Thread-1 (]: On model.olist_dw.mart_seller_scorecard: /* {"app": "dbt", "dbt_version": "1.7.9", "profile_name": "olist_dw", "target_name": "dev", "node_id": "model.olist_dw.mart_seller_scorecard"} */
+drop table if exists "postgres"."analytics"."mart_seller_scorecard__dbt_backup" cascade
+[0m13:07:47.969468 [debug] [Thread-1 (]: SQL status: DROP TABLE in 0.0 seconds
+[0m13:07:47.973245 [debug] [Thread-1 (]: Timing info for model.olist_dw.mart_seller_scorecard (execute): 13:07:35.341666 => 13:07:47.972897
+[0m13:07:47.973827 [debug] [Thread-1 (]: On model.olist_dw.mart_seller_scorecard: Close
+[0m13:07:47.975598 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'df0826bf-3802-4c05-a88b-5bddd5006c9a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10d346d50>]}
+[0m13:07:47.976434 [info ] [Thread-1 (]: 15 of 15 OK created sql table model analytics.mart_seller_scorecard ............ [[32mSELECT 3095[0m in 12.65s]
+[0m13:07:47.977107 [debug] [Thread-1 (]: Finished running node model.olist_dw.mart_seller_scorecard
+[0m13:07:48.186883 [debug] [Thread-2 (]: SQL status: SELECT 96096 in 6.0 seconds
+[0m13:07:48.193170 [debug] [Thread-2 (]: Using postgres connection "model.olist_dw.mart_customer_segments"
+[0m13:07:48.193779 [debug] [Thread-2 (]: On model.olist_dw.mart_customer_segments: /* {"app": "dbt", "dbt_version": "1.7.9", "profile_name": "olist_dw", "target_name": "dev", "node_id": "model.olist_dw.mart_customer_segments"} */
+alter table "postgres"."analytics"."mart_customer_segments__dbt_tmp" rename to "mart_customer_segments"
+[0m13:07:48.297877 [debug] [Thread-4 (]: SQL status: SELECT 115722 in 6.0 seconds
+[0m13:07:48.305215 [debug] [Thread-4 (]: Using postgres connection "model.olist_dw.mart_delivery_sla"
+[0m13:07:48.305951 [debug] [Thread-4 (]: On model.olist_dw.mart_delivery_sla: /* {"app": "dbt", "dbt_version": "1.7.9", "profile_name": "olist_dw", "target_name": "dev", "node_id": "model.olist_dw.mart_delivery_sla"} */
+alter table "postgres"."analytics"."mart_delivery_sla__dbt_tmp" rename to "mart_delivery_sla"
+[0m13:07:48.321082 [debug] [Thread-2 (]: SQL status: ALTER TABLE in 0.0 seconds
+[0m13:07:48.322940 [debug] [Thread-2 (]: On model.olist_dw.mart_customer_segments: COMMIT
+[0m13:07:48.323276 [debug] [Thread-2 (]: Using postgres connection "model.olist_dw.mart_customer_segments"
+[0m13:07:48.323539 [debug] [Thread-2 (]: On model.olist_dw.mart_customer_segments: COMMIT
+[0m13:07:48.382525 [debug] [Thread-2 (]: SQL status: COMMIT in 0.0 seconds
+[0m13:07:48.386877 [debug] [Thread-2 (]: Applying DROP to: "postgres"."analytics"."mart_customer_segments__dbt_backup"
+[0m13:07:48.387887 [debug] [Thread-2 (]: Using postgres connection "model.olist_dw.mart_customer_segments"
+[0m13:07:48.388231 [debug] [Thread-2 (]: On model.olist_dw.mart_customer_segments: /* {"app": "dbt", "dbt_version": "1.7.9", "profile_name": "olist_dw", "target_name": "dev", "node_id": "model.olist_dw.mart_customer_segments"} */
+drop table if exists "postgres"."analytics"."mart_customer_segments__dbt_backup" cascade
+[0m13:07:48.421278 [debug] [Thread-4 (]: SQL status: ALTER TABLE in 0.0 seconds
+[0m13:07:48.424223 [debug] [Thread-4 (]: On model.olist_dw.mart_delivery_sla: COMMIT
+[0m13:07:48.424838 [debug] [Thread-4 (]: Using postgres connection "model.olist_dw.mart_delivery_sla"
+[0m13:07:48.425238 [debug] [Thread-4 (]: On model.olist_dw.mart_delivery_sla: COMMIT
+[0m13:07:48.435978 [debug] [Thread-2 (]: SQL status: DROP TABLE in 0.0 seconds
+[0m13:07:48.438974 [debug] [Thread-2 (]: Timing info for model.olist_dw.mart_customer_segments (execute): 13:07:35.338857 => 13:07:48.438675
+[0m13:07:48.439586 [debug] [Thread-2 (]: On model.olist_dw.mart_customer_segments: Close
+[0m13:07:48.440937 [debug] [Thread-2 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'df0826bf-3802-4c05-a88b-5bddd5006c9a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10d3dd8b0>]}
+[0m13:07:48.441686 [info ] [Thread-2 (]: 13 of 15 OK created sql table model analytics.mart_customer_segments ........... [[32mSELECT 96096[0m in 13.12s]
+[0m13:07:48.442315 [debug] [Thread-2 (]: Finished running node model.olist_dw.mart_customer_segments
+[0m13:07:48.475685 [debug] [Thread-4 (]: SQL status: COMMIT in 0.0 seconds
+[0m13:07:48.478330 [debug] [Thread-4 (]: Applying DROP to: "postgres"."analytics"."mart_delivery_sla__dbt_backup"
+[0m13:07:48.478946 [debug] [Thread-4 (]: Using postgres connection "model.olist_dw.mart_delivery_sla"
+[0m13:07:48.479171 [debug] [Thread-4 (]: On model.olist_dw.mart_delivery_sla: /* {"app": "dbt", "dbt_version": "1.7.9", "profile_name": "olist_dw", "target_name": "dev", "node_id": "model.olist_dw.mart_delivery_sla"} */
+drop table if exists "postgres"."analytics"."mart_delivery_sla__dbt_backup" cascade
+[0m13:07:48.525818 [debug] [Thread-4 (]: SQL status: DROP TABLE in 0.0 seconds
+[0m13:07:48.527179 [debug] [Thread-4 (]: Timing info for model.olist_dw.mart_delivery_sla (execute): 13:07:35.343951 => 13:07:48.527006
+[0m13:07:48.527465 [debug] [Thread-4 (]: On model.olist_dw.mart_delivery_sla: Close
+[0m13:07:48.528277 [debug] [Thread-4 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'df0826bf-3802-4c05-a88b-5bddd5006c9a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10d3dd070>]}
+[0m13:07:48.528788 [info ] [Thread-4 (]: 14 of 15 OK created sql table model analytics.mart_delivery_sla ................ [[32mSELECT 115722[0m in 13.20s]
+[0m13:07:48.529234 [debug] [Thread-4 (]: Finished running node model.olist_dw.mart_delivery_sla
+[0m13:07:48.530650 [debug] [MainThread]: Using postgres connection "master"
+[0m13:07:48.530863 [debug] [MainThread]: On master: BEGIN
+[0m13:07:48.531048 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m13:07:49.064986 [debug] [MainThread]: SQL status: BEGIN in 1.0 seconds
+[0m13:07:49.065936 [debug] [MainThread]: On master: COMMIT
+[0m13:07:49.066416 [debug] [MainThread]: Using postgres connection "master"
+[0m13:07:49.066784 [debug] [MainThread]: On master: COMMIT
+[0m13:07:49.111854 [debug] [MainThread]: SQL status: COMMIT in 0.0 seconds
+[0m13:07:49.112995 [debug] [MainThread]: On master: Close
+[0m13:07:49.114692 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m13:07:49.115120 [debug] [MainThread]: Connection 'model.olist_dw.mart_seller_scorecard' was properly closed.
+[0m13:07:49.115452 [debug] [MainThread]: Connection 'model.olist_dw.mart_revenue_summary' was properly closed.
+[0m13:07:49.115748 [debug] [MainThread]: Connection 'model.olist_dw.mart_customer_segments' was properly closed.
+[0m13:07:49.116046 [debug] [MainThread]: Connection 'model.olist_dw.mart_delivery_sla' was properly closed.
+[0m13:07:49.116702 [info ] [MainThread]: 
+[0m13:07:49.117616 [info ] [MainThread]: Finished running 11 view models, 4 table models in 0 hours 0 minutes and 19.30 seconds (19.30s).
+[0m13:07:49.120874 [debug] [MainThread]: Command end result
+[0m13:07:49.133103 [info ] [MainThread]: 
+[0m13:07:49.133777 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m13:07:49.134373 [info ] [MainThread]: 
+[0m13:07:49.134734 [info ] [MainThread]: Done. PASS=15 WARN=0 ERROR=0 SKIP=0 TOTAL=15
+[0m13:07:49.138116 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": true, "command_wall_clock_time": 19.857168, "process_user_time": 1.781766, "process_kernel_time": 0.185448, "process_mem_max_rss": "150159360", "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m13:07:49.138546 [debug] [MainThread]: Command `dbt run` succeeded at 13:07:49.138439 after 19.86 seconds
+[0m13:07:49.138858 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10c0c54f0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10cef1490>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10ce348f0>]}
+[0m13:07:49.139162 [debug] [MainThread]: Flushing usage events
+[0m13:07:50.195219 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107ff8830>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x109f33890>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x109f33750>]}
+
+
+============================== 13:07:50.196821 | be4ebf8e-3a13-493b-b947-350c301d50d8 ==============================
+[0m13:07:50.196821 [info ] [MainThread]: Running with dbt=1.7.9
+[0m13:07:50.197059 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'profiles_dir': '.', 'log_path': '/Users/chokkapusaatvika/Downloads/olist-ecommerce-intelligence/olist_dw/logs', 'debug': 'False', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt test', 'log_format': 'default', 'static_parser': 'True', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m13:07:50.257961 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'be4ebf8e-3a13-493b-b947-350c301d50d8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x109eb7360>]}
+[0m13:07:50.285737 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'be4ebf8e-3a13-493b-b947-350c301d50d8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10a6c6360>]}
+[0m13:07:50.286103 [info ] [MainThread]: Registered adapter: postgres=1.7.9
+[0m13:07:50.293575 [debug] [MainThread]: checksum: 6ff0d83c3b46f350064523b4e08d9241403ad71d606ba49c4e670afba3668b39, vars: {}, profile: , target: , version: 1.7.9
+[0m13:07:50.329689 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m13:07:50.330054 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m13:07:50.334397 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'be4ebf8e-3a13-493b-b947-350c301d50d8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10ae36350>]}
+[0m13:07:50.340370 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'be4ebf8e-3a13-493b-b947-350c301d50d8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10ad7bc50>]}
+[0m13:07:50.340636 [info ] [MainThread]: Found 15 models, 10 tests, 9 sources, 0 exposures, 0 metrics, 401 macros, 0 groups, 0 semantic models
+[0m13:07:50.340801 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'be4ebf8e-3a13-493b-b947-350c301d50d8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10ad97770>]}
+[0m13:07:50.343021 [info ] [MainThread]: 
+[0m13:07:50.343707 [debug] [MainThread]: Acquiring new postgres connection 'master'
+[0m13:07:50.344956 [debug] [ThreadPool]: Acquiring new postgres connection 'list_postgres_analytics'
+[0m13:07:50.355313 [debug] [ThreadPool]: Using postgres connection "list_postgres_analytics"
+[0m13:07:50.355597 [debug] [ThreadPool]: On list_postgres_analytics: BEGIN
+[0m13:07:50.355737 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m13:07:50.801729 [debug] [ThreadPool]: SQL status: BEGIN in 0.0 seconds
+[0m13:07:50.803078 [debug] [ThreadPool]: Using postgres connection "list_postgres_analytics"
+[0m13:07:50.804037 [debug] [ThreadPool]: On list_postgres_analytics: /* {"app": "dbt", "dbt_version": "1.7.9", "profile_name": "olist_dw", "target_name": "dev", "connection_name": "list_postgres_analytics"} */
+select
+      'postgres' as database,
+      tablename as name,
+      schemaname as schema,
+      'table' as type
+    from pg_tables
+    where schemaname ilike 'analytics'
+    union all
+    select
+      'postgres' as database,
+      viewname as name,
+      schemaname as schema,
+      'view' as type
+    from pg_views
+    where schemaname ilike 'analytics'
+    union all
+    select
+      'postgres' as database,
+      matviewname as name,
+      schemaname as schema,
+      'materialized_view' as type
+    from pg_matviews
+    where schemaname ilike 'analytics'
+  
+[0m13:07:50.878800 [debug] [ThreadPool]: SQL status: SELECT 15 in 0.0 seconds
+[0m13:07:50.881074 [debug] [ThreadPool]: On list_postgres_analytics: ROLLBACK
+[0m13:07:50.924827 [debug] [ThreadPool]: On list_postgres_analytics: Close
+[0m13:07:50.936612 [debug] [MainThread]: Using postgres connection "master"
+[0m13:07:50.937122 [debug] [MainThread]: On master: BEGIN
+[0m13:07:50.937340 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m13:07:51.306772 [debug] [MainThread]: SQL status: BEGIN in 0.0 seconds
+[0m13:07:51.307165 [debug] [MainThread]: Using postgres connection "master"
+[0m13:07:51.307500 [debug] [MainThread]: On master: /* {"app": "dbt", "dbt_version": "1.7.9", "profile_name": "olist_dw", "target_name": "dev", "connection_name": "master"} */
+with relation as (
+        select
+            pg_rewrite.ev_class as class,
+            pg_rewrite.oid as id
+        from pg_rewrite
+    ),
+    class as (
+        select
+            oid as id,
+            relname as name,
+            relnamespace as schema,
+            relkind as kind
+        from pg_class
+    ),
+    dependency as (
+        select distinct
+            pg_depend.objid as id,
+            pg_depend.refobjid as ref
+        from pg_depend
+    ),
+    schema as (
+        select
+            pg_namespace.oid as id,
+            pg_namespace.nspname as name
+        from pg_namespace
+        where nspname != 'information_schema' and nspname not like 'pg\_%'
+    ),
+    referenced as (
+        select
+            relation.id AS id,
+            referenced_class.name ,
+            referenced_class.schema ,
+            referenced_class.kind
+        from relation
+        join class as referenced_class on relation.class=referenced_class.id
+        where referenced_class.kind in ('r', 'v', 'm')
+    ),
+    relationships as (
+        select
+            referenced.name as referenced_name,
+            referenced.schema as referenced_schema_id,
+            dependent_class.name as dependent_name,
+            dependent_class.schema as dependent_schema_id,
+            referenced.kind as kind
+        from referenced
+        join dependency on referenced.id=dependency.id
+        join class as dependent_class on dependency.ref=dependent_class.id
+        where
+            (referenced.name != dependent_class.name or
+             referenced.schema != dependent_class.schema)
+    )
+
+    select
+        referenced_schema.name as referenced_schema,
+        relationships.referenced_name as referenced_name,
+        dependent_schema.name as dependent_schema,
+        relationships.dependent_name as dependent_name
+    from relationships
+    join schema as dependent_schema on relationships.dependent_schema_id=dependent_schema.id
+    join schema as referenced_schema on relationships.referenced_schema_id=referenced_schema.id
+    group by referenced_schema, referenced_name, dependent_schema, dependent_name
+    order by referenced_schema, referenced_name, dependent_schema, dependent_name;
+[0m13:07:51.370891 [debug] [MainThread]: SQL status: SELECT 19 in 0.0 seconds
+[0m13:07:51.374161 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'be4ebf8e-3a13-493b-b947-350c301d50d8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10af01cc0>]}
+[0m13:07:51.374818 [debug] [MainThread]: On master: ROLLBACK
+[0m13:07:51.413199 [debug] [MainThread]: Using postgres connection "master"
+[0m13:07:51.413890 [debug] [MainThread]: On master: BEGIN
+[0m13:07:51.490888 [debug] [MainThread]: SQL status: BEGIN in 0.0 seconds
+[0m13:07:51.491160 [debug] [MainThread]: On master: COMMIT
+[0m13:07:51.491319 [debug] [MainThread]: Using postgres connection "master"
+[0m13:07:51.491461 [debug] [MainThread]: On master: COMMIT
+[0m13:07:51.529538 [debug] [MainThread]: SQL status: COMMIT in 0.0 seconds
+[0m13:07:51.529813 [debug] [MainThread]: On master: Close
+[0m13:07:51.530463 [info ] [MainThread]: Concurrency: 4 threads (target='dev')
+[0m13:07:51.530673 [info ] [MainThread]: 
+[0m13:07:51.532571 [debug] [Thread-4 (]: Began running node test.olist_dw.not_null_mart_revenue_summary_gmv.434a6703ee
+[0m13:07:51.532898 [debug] [Thread-3 (]: Began running node test.olist_dw.not_null_mart_customer_segments_customer_id.1f6a9d738a
+[0m13:07:51.533115 [debug] [Thread-1 (]: Began running node test.olist_dw.accepted_values_mart_customer_segments_rfm_segment__Champions__Loyal__At_Risk__Lost.520ea03716
+[0m13:07:51.533288 [debug] [Thread-2 (]: Began running node test.olist_dw.accepted_values_mart_delivery_sla_is_late_delivery__True__False.53e4e3326d
+[0m13:07:51.533505 [info ] [Thread-4 (]: 4 of 10 START test not_null_mart_revenue_summary_gmv ........................... [RUN]
+[0m13:07:51.533883 [info ] [Thread-3 (]: 3 of 10 START test not_null_mart_customer_segments_customer_id ................. [RUN]
+[0m13:07:51.534146 [info ] [Thread-1 (]: 1 of 10 START test accepted_values_mart_customer_segments_rfm_segment__Champions__Loyal__At_Risk__Lost  [RUN]
+[0m13:07:51.534346 [info ] [Thread-2 (]: 2 of 10 START test accepted_values_mart_delivery_sla_is_late_delivery__True__False  [RUN]
+[0m13:07:51.534795 [debug] [Thread-4 (]: Acquiring new postgres connection 'test.olist_dw.not_null_mart_revenue_summary_gmv.434a6703ee'
+[0m13:07:51.535125 [debug] [Thread-3 (]: Acquiring new postgres connection 'test.olist_dw.not_null_mart_customer_segments_customer_id.1f6a9d738a'
+[0m13:07:51.535413 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly list_postgres_analytics, now test.olist_dw.accepted_values_mart_customer_segments_rfm_segment__Champions__Loyal__At_Risk__Lost.520ea03716)
+[0m13:07:51.535719 [debug] [Thread-2 (]: Acquiring new postgres connection 'test.olist_dw.accepted_values_mart_delivery_sla_is_late_delivery__True__False.53e4e3326d'
+[0m13:07:51.535940 [debug] [Thread-4 (]: Began compiling node test.olist_dw.not_null_mart_revenue_summary_gmv.434a6703ee
+[0m13:07:51.536142 [debug] [Thread-3 (]: Began compiling node test.olist_dw.not_null_mart_customer_segments_customer_id.1f6a9d738a
+[0m13:07:51.536316 [debug] [Thread-1 (]: Began compiling node test.olist_dw.accepted_values_mart_customer_segments_rfm_segment__Champions__Loyal__At_Risk__Lost.520ea03716
+[0m13:07:51.536487 [debug] [Thread-2 (]: Began compiling node test.olist_dw.accepted_values_mart_delivery_sla_is_late_delivery__True__False.53e4e3326d
+[0m13:07:51.545330 [debug] [Thread-4 (]: Writing injected SQL for node "test.olist_dw.not_null_mart_revenue_summary_gmv.434a6703ee"
+[0m13:07:51.547036 [debug] [Thread-3 (]: Writing injected SQL for node "test.olist_dw.not_null_mart_customer_segments_customer_id.1f6a9d738a"
+[0m13:07:51.551432 [debug] [Thread-1 (]: Writing injected SQL for node "test.olist_dw.accepted_values_mart_customer_segments_rfm_segment__Champions__Loyal__At_Risk__Lost.520ea03716"
+[0m13:07:51.552997 [debug] [Thread-2 (]: Writing injected SQL for node "test.olist_dw.accepted_values_mart_delivery_sla_is_late_delivery__True__False.53e4e3326d"
+[0m13:07:51.553682 [debug] [Thread-1 (]: Timing info for test.olist_dw.accepted_values_mart_customer_segments_rfm_segment__Champions__Loyal__At_Risk__Lost.520ea03716 (compile): 13:07:51.547181 => 13:07:51.553539
+[0m13:07:51.553874 [debug] [Thread-1 (]: Began executing node test.olist_dw.accepted_values_mart_customer_segments_rfm_segment__Champions__Loyal__At_Risk__Lost.520ea03716
+[0m13:07:51.560250 [debug] [Thread-4 (]: Timing info for test.olist_dw.not_null_mart_revenue_summary_gmv.434a6703ee (compile): 13:07:51.536606 => 13:07:51.560120
+[0m13:07:51.559999 [debug] [Thread-1 (]: Writing runtime sql for node "test.olist_dw.accepted_values_mart_customer_segments_rfm_segment__Champions__Loyal__At_Risk__Lost.520ea03716"
+[0m13:07:51.560454 [debug] [Thread-4 (]: Began executing node test.olist_dw.not_null_mart_revenue_summary_gmv.434a6703ee
+[0m13:07:51.560724 [debug] [Thread-3 (]: Timing info for test.olist_dw.not_null_mart_customer_segments_customer_id.1f6a9d738a (compile): 13:07:51.545486 => 13:07:51.560632
+[0m13:07:51.561781 [debug] [Thread-4 (]: Writing runtime sql for node "test.olist_dw.not_null_mart_revenue_summary_gmv.434a6703ee"
+[0m13:07:51.562107 [debug] [Thread-2 (]: Timing info for test.olist_dw.accepted_values_mart_delivery_sla_is_late_delivery__True__False.53e4e3326d (compile): 13:07:51.551582 => 13:07:51.561972
+[0m13:07:51.562492 [debug] [Thread-3 (]: Began executing node test.olist_dw.not_null_mart_customer_segments_customer_id.1f6a9d738a
+[0m13:07:51.562750 [debug] [Thread-2 (]: Began executing node test.olist_dw.accepted_values_mart_delivery_sla_is_late_delivery__True__False.53e4e3326d
+[0m13:07:51.564008 [debug] [Thread-3 (]: Writing runtime sql for node "test.olist_dw.not_null_mart_customer_segments_customer_id.1f6a9d738a"
+[0m13:07:51.564252 [debug] [Thread-1 (]: Using postgres connection "test.olist_dw.accepted_values_mart_customer_segments_rfm_segment__Champions__Loyal__At_Risk__Lost.520ea03716"
+[0m13:07:51.565058 [debug] [Thread-2 (]: Writing runtime sql for node "test.olist_dw.accepted_values_mart_delivery_sla_is_late_delivery__True__False.53e4e3326d"
+[0m13:07:51.565221 [debug] [Thread-4 (]: Using postgres connection "test.olist_dw.not_null_mart_revenue_summary_gmv.434a6703ee"
+[0m13:07:51.565420 [debug] [Thread-1 (]: On test.olist_dw.accepted_values_mart_customer_segments_rfm_segment__Champions__Loyal__At_Risk__Lost.520ea03716: BEGIN
+[0m13:07:51.565638 [debug] [Thread-4 (]: On test.olist_dw.not_null_mart_revenue_summary_gmv.434a6703ee: BEGIN
+[0m13:07:51.565793 [debug] [Thread-3 (]: Using postgres connection "test.olist_dw.not_null_mart_customer_segments_customer_id.1f6a9d738a"
+[0m13:07:51.565956 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m13:07:51.566114 [debug] [Thread-4 (]: Opening a new connection, currently in state init
+[0m13:07:51.566262 [debug] [Thread-2 (]: Using postgres connection "test.olist_dw.accepted_values_mart_delivery_sla_is_late_delivery__True__False.53e4e3326d"
+[0m13:07:51.566393 [debug] [Thread-3 (]: On test.olist_dw.not_null_mart_customer_segments_customer_id.1f6a9d738a: BEGIN
+[0m13:07:51.566626 [debug] [Thread-2 (]: On test.olist_dw.accepted_values_mart_delivery_sla_is_late_delivery__True__False.53e4e3326d: BEGIN
+[0m13:07:51.566758 [debug] [Thread-3 (]: Opening a new connection, currently in state init
+[0m13:07:51.566884 [debug] [Thread-2 (]: Opening a new connection, currently in state init
+[0m13:07:51.969931 [debug] [Thread-1 (]: SQL status: BEGIN in 0.0 seconds
+[0m13:07:51.970963 [debug] [Thread-1 (]: Using postgres connection "test.olist_dw.accepted_values_mart_customer_segments_rfm_segment__Champions__Loyal__At_Risk__Lost.520ea03716"
+[0m13:07:51.971490 [debug] [Thread-1 (]: On test.olist_dw.accepted_values_mart_customer_segments_rfm_segment__Champions__Loyal__At_Risk__Lost.520ea03716: /* {"app": "dbt", "dbt_version": "1.7.9", "profile_name": "olist_dw", "target_name": "dev", "node_id": "test.olist_dw.accepted_values_mart_customer_segments_rfm_segment__Champions__Loyal__At_Risk__Lost.520ea03716"} */
+select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+    
+
+with all_values as (
+
+    select
+        rfm_segment as value_field,
+        count(*) as n_records
+
+    from "postgres"."analytics"."mart_customer_segments"
+    group by rfm_segment
+
+)
+
+select *
+from all_values
+where value_field not in (
+    'Champions','Loyal','At-Risk','Lost'
+)
+
+
+
+      
+    ) dbt_internal_test
+[0m13:07:51.972230 [debug] [Thread-2 (]: SQL status: BEGIN in 0.0 seconds
+[0m13:07:51.972688 [debug] [Thread-3 (]: SQL status: BEGIN in 0.0 seconds
+[0m13:07:51.973121 [debug] [Thread-2 (]: Using postgres connection "test.olist_dw.accepted_values_mart_delivery_sla_is_late_delivery__True__False.53e4e3326d"
+[0m13:07:51.973526 [debug] [Thread-3 (]: Using postgres connection "test.olist_dw.not_null_mart_customer_segments_customer_id.1f6a9d738a"
+[0m13:07:51.973957 [debug] [Thread-2 (]: On test.olist_dw.accepted_values_mart_delivery_sla_is_late_delivery__True__False.53e4e3326d: /* {"app": "dbt", "dbt_version": "1.7.9", "profile_name": "olist_dw", "target_name": "dev", "node_id": "test.olist_dw.accepted_values_mart_delivery_sla_is_late_delivery__True__False.53e4e3326d"} */
+select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+    
+
+with all_values as (
+
+    select
+        is_late_delivery as value_field,
+        count(*) as n_records
+
+    from "postgres"."analytics"."mart_delivery_sla"
+    group by is_late_delivery
+
+)
+
+select *
+from all_values
+where value_field not in (
+    'True','False'
+)
+
+
+
+      
+    ) dbt_internal_test
+[0m13:07:51.974354 [debug] [Thread-3 (]: On test.olist_dw.not_null_mart_customer_segments_customer_id.1f6a9d738a: /* {"app": "dbt", "dbt_version": "1.7.9", "profile_name": "olist_dw", "target_name": "dev", "node_id": "test.olist_dw.not_null_mart_customer_segments_customer_id.1f6a9d738a"} */
+select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+    
+
+
+
+select customer_id
+from "postgres"."analytics"."mart_customer_segments"
+where customer_id is null
+
+
+
+      
+    ) dbt_internal_test
+[0m13:07:51.984803 [debug] [Thread-4 (]: SQL status: BEGIN in 0.0 seconds
+[0m13:07:51.985487 [debug] [Thread-4 (]: Using postgres connection "test.olist_dw.not_null_mart_revenue_summary_gmv.434a6703ee"
+[0m13:07:51.985963 [debug] [Thread-4 (]: On test.olist_dw.not_null_mart_revenue_summary_gmv.434a6703ee: /* {"app": "dbt", "dbt_version": "1.7.9", "profile_name": "olist_dw", "target_name": "dev", "node_id": "test.olist_dw.not_null_mart_revenue_summary_gmv.434a6703ee"} */
+select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+    
+
+
+
+select gmv
+from "postgres"."analytics"."mart_revenue_summary"
+where gmv is null
+
+
+
+      
+    ) dbt_internal_test
+[0m13:07:52.114966 [debug] [Thread-4 (]: SQL status: SELECT 1 in 0.0 seconds
+[0m13:07:52.120981 [debug] [Thread-4 (]: Timing info for test.olist_dw.not_null_mart_revenue_summary_gmv.434a6703ee (execute): 13:07:51.560810 => 13:07:52.120452
+[0m13:07:52.121607 [debug] [Thread-3 (]: SQL status: SELECT 1 in 0.0 seconds
+[0m13:07:52.122062 [debug] [Thread-4 (]: On test.olist_dw.not_null_mart_revenue_summary_gmv.434a6703ee: ROLLBACK
+[0m13:07:52.124150 [debug] [Thread-3 (]: Timing info for test.olist_dw.not_null_mart_customer_segments_customer_id.1f6a9d738a (execute): 13:07:51.562851 => 13:07:52.123852
+[0m13:07:52.124656 [debug] [Thread-3 (]: On test.olist_dw.not_null_mart_customer_segments_customer_id.1f6a9d738a: ROLLBACK
+[0m13:07:52.168743 [debug] [Thread-3 (]: On test.olist_dw.not_null_mart_customer_segments_customer_id.1f6a9d738a: Close
+[0m13:07:52.170982 [info ] [Thread-3 (]: 3 of 10 PASS not_null_mart_customer_segments_customer_id ....................... [[32mPASS[0m in 0.64s]
+[0m13:07:52.171936 [debug] [Thread-3 (]: Finished running node test.olist_dw.not_null_mart_customer_segments_customer_id.1f6a9d738a
+[0m13:07:52.172567 [debug] [Thread-3 (]: Began running node test.olist_dw.not_null_mart_seller_scorecard_seller_id.e48881e0a8
+[0m13:07:52.173140 [info ] [Thread-3 (]: 5 of 10 START test not_null_mart_seller_scorecard_seller_id .................... [RUN]
+[0m13:07:52.174054 [debug] [Thread-3 (]: Re-using an available connection from the pool (formerly test.olist_dw.not_null_mart_customer_segments_customer_id.1f6a9d738a, now test.olist_dw.not_null_mart_seller_scorecard_seller_id.e48881e0a8)
+[0m13:07:52.174521 [debug] [Thread-4 (]: On test.olist_dw.not_null_mart_revenue_summary_gmv.434a6703ee: Close
+[0m13:07:52.174954 [debug] [Thread-3 (]: Began compiling node test.olist_dw.not_null_mart_seller_scorecard_seller_id.e48881e0a8
+[0m13:07:52.175367 [debug] [Thread-1 (]: SQL status: SELECT 1 in 0.0 seconds
+[0m13:07:52.182953 [debug] [Thread-3 (]: Writing injected SQL for node "test.olist_dw.not_null_mart_seller_scorecard_seller_id.e48881e0a8"
+[0m13:07:52.182601 [error] [Thread-4 (]: 4 of 10 FAIL 1 not_null_mart_revenue_summary_gmv ............................... [[31mFAIL 1[0m in 0.65s]
+[0m13:07:52.185834 [debug] [Thread-1 (]: Timing info for test.olist_dw.accepted_values_mart_customer_segments_rfm_segment__Champions__Loyal__At_Risk__Lost.520ea03716 (execute): 13:07:51.553979 => 13:07:52.185358
+[0m13:07:52.187228 [debug] [Thread-4 (]: Finished running node test.olist_dw.not_null_mart_revenue_summary_gmv.434a6703ee
+[0m13:07:52.187778 [debug] [Thread-1 (]: On test.olist_dw.accepted_values_mart_customer_segments_rfm_segment__Champions__Loyal__At_Risk__Lost.520ea03716: ROLLBACK
+[0m13:07:52.188388 [debug] [Thread-4 (]: Began running node test.olist_dw.test_delivery_date_after_order_date
+[0m13:07:52.188904 [debug] [Thread-3 (]: Timing info for test.olist_dw.not_null_mart_seller_scorecard_seller_id.e48881e0a8 (compile): 13:07:52.175699 => 13:07:52.188688
+[0m13:07:52.189422 [info ] [Thread-4 (]: 6 of 10 START test test_delivery_date_after_order_date ......................... [RUN]
+[0m13:07:52.189870 [debug] [Thread-3 (]: Began executing node test.olist_dw.not_null_mart_seller_scorecard_seller_id.e48881e0a8
+[0m13:07:52.190705 [debug] [Thread-4 (]: Re-using an available connection from the pool (formerly test.olist_dw.not_null_mart_revenue_summary_gmv.434a6703ee, now test.olist_dw.test_delivery_date_after_order_date)
+[0m13:07:52.192685 [debug] [Thread-3 (]: Writing runtime sql for node "test.olist_dw.not_null_mart_seller_scorecard_seller_id.e48881e0a8"
+[0m13:07:52.192996 [debug] [Thread-4 (]: Began compiling node test.olist_dw.test_delivery_date_after_order_date
+[0m13:07:52.195538 [debug] [Thread-4 (]: Writing injected SQL for node "test.olist_dw.test_delivery_date_after_order_date"
+[0m13:07:52.196099 [debug] [Thread-3 (]: Using postgres connection "test.olist_dw.not_null_mart_seller_scorecard_seller_id.e48881e0a8"
+[0m13:07:52.196347 [debug] [Thread-3 (]: On test.olist_dw.not_null_mart_seller_scorecard_seller_id.e48881e0a8: BEGIN
+[0m13:07:52.196597 [debug] [Thread-3 (]: Opening a new connection, currently in state closed
+[0m13:07:52.196986 [debug] [Thread-4 (]: Timing info for test.olist_dw.test_delivery_date_after_order_date (compile): 13:07:52.193245 => 13:07:52.196842
+[0m13:07:52.197226 [debug] [Thread-4 (]: Began executing node test.olist_dw.test_delivery_date_after_order_date
+[0m13:07:52.198915 [debug] [Thread-4 (]: Writing runtime sql for node "test.olist_dw.test_delivery_date_after_order_date"
+[0m13:07:52.199902 [debug] [Thread-4 (]: Using postgres connection "test.olist_dw.test_delivery_date_after_order_date"
+[0m13:07:52.200174 [debug] [Thread-4 (]: On test.olist_dw.test_delivery_date_after_order_date: BEGIN
+[0m13:07:52.200428 [debug] [Thread-4 (]: Opening a new connection, currently in state closed
+[0m13:07:52.230521 [debug] [Thread-1 (]: On test.olist_dw.accepted_values_mart_customer_segments_rfm_segment__Champions__Loyal__At_Risk__Lost.520ea03716: Close
+[0m13:07:52.231258 [info ] [Thread-1 (]: 1 of 10 PASS accepted_values_mart_customer_segments_rfm_segment__Champions__Loyal__At_Risk__Lost  [[32mPASS[0m in 0.70s]
+[0m13:07:52.231629 [debug] [Thread-1 (]: Finished running node test.olist_dw.accepted_values_mart_customer_segments_rfm_segment__Champions__Loyal__At_Risk__Lost.520ea03716
+[0m13:07:52.231882 [debug] [Thread-1 (]: Began running node test.olist_dw.test_no_negative_revenue
+[0m13:07:52.232184 [info ] [Thread-1 (]: 7 of 10 START test test_no_negative_revenue .................................... [RUN]
+[0m13:07:52.232686 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly test.olist_dw.accepted_values_mart_customer_segments_rfm_segment__Champions__Loyal__At_Risk__Lost.520ea03716, now test.olist_dw.test_no_negative_revenue)
+[0m13:07:52.232934 [debug] [Thread-1 (]: Began compiling node test.olist_dw.test_no_negative_revenue
+[0m13:07:52.234543 [debug] [Thread-1 (]: Writing injected SQL for node "test.olist_dw.test_no_negative_revenue"
+[0m13:07:52.235106 [debug] [Thread-1 (]: Timing info for test.olist_dw.test_no_negative_revenue (compile): 13:07:52.233069 => 13:07:52.234975
+[0m13:07:52.235315 [debug] [Thread-1 (]: Began executing node test.olist_dw.test_no_negative_revenue
+[0m13:07:52.236507 [debug] [Thread-1 (]: Writing runtime sql for node "test.olist_dw.test_no_negative_revenue"
+[0m13:07:52.236881 [debug] [Thread-1 (]: Using postgres connection "test.olist_dw.test_no_negative_revenue"
+[0m13:07:52.237060 [debug] [Thread-1 (]: On test.olist_dw.test_no_negative_revenue: BEGIN
+[0m13:07:52.237228 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m13:07:52.285096 [debug] [Thread-2 (]: SQL status: SELECT 1 in 0.0 seconds
+[0m13:07:52.286160 [debug] [Thread-2 (]: Timing info for test.olist_dw.accepted_values_mart_delivery_sla_is_late_delivery__True__False.53e4e3326d (execute): 13:07:51.564342 => 13:07:52.286002
+[0m13:07:52.286390 [debug] [Thread-2 (]: On test.olist_dw.accepted_values_mart_delivery_sla_is_late_delivery__True__False.53e4e3326d: ROLLBACK
+[0m13:07:52.325951 [debug] [Thread-2 (]: On test.olist_dw.accepted_values_mart_delivery_sla_is_late_delivery__True__False.53e4e3326d: Close
+[0m13:07:52.326658 [info ] [Thread-2 (]: 2 of 10 PASS accepted_values_mart_delivery_sla_is_late_delivery__True__False ... [[32mPASS[0m in 0.79s]
+[0m13:07:52.327007 [debug] [Thread-2 (]: Finished running node test.olist_dw.accepted_values_mart_delivery_sla_is_late_delivery__True__False.53e4e3326d
+[0m13:07:52.327240 [debug] [Thread-2 (]: Began running node test.olist_dw.test_review_score_range
+[0m13:07:52.327510 [info ] [Thread-2 (]: 8 of 10 START test test_review_score_range ..................................... [RUN]
+[0m13:07:52.327971 [debug] [Thread-2 (]: Re-using an available connection from the pool (formerly test.olist_dw.accepted_values_mart_delivery_sla_is_late_delivery__True__False.53e4e3326d, now test.olist_dw.test_review_score_range)
+[0m13:07:52.328208 [debug] [Thread-2 (]: Began compiling node test.olist_dw.test_review_score_range
+[0m13:07:52.329814 [debug] [Thread-2 (]: Writing injected SQL for node "test.olist_dw.test_review_score_range"
+[0m13:07:52.330336 [debug] [Thread-2 (]: Timing info for test.olist_dw.test_review_score_range (compile): 13:07:52.328333 => 13:07:52.330224
+[0m13:07:52.330513 [debug] [Thread-2 (]: Began executing node test.olist_dw.test_review_score_range
+[0m13:07:52.331952 [debug] [Thread-2 (]: Writing runtime sql for node "test.olist_dw.test_review_score_range"
+[0m13:07:52.332313 [debug] [Thread-2 (]: Using postgres connection "test.olist_dw.test_review_score_range"
+[0m13:07:52.332476 [debug] [Thread-2 (]: On test.olist_dw.test_review_score_range: BEGIN
+[0m13:07:52.332634 [debug] [Thread-2 (]: Opening a new connection, currently in state closed
+[0m13:07:52.581324 [debug] [Thread-4 (]: SQL status: BEGIN in 0.0 seconds
+[0m13:07:52.582121 [debug] [Thread-4 (]: Using postgres connection "test.olist_dw.test_delivery_date_after_order_date"
+[0m13:07:52.582808 [debug] [Thread-4 (]: On test.olist_dw.test_delivery_date_after_order_date: /* {"app": "dbt", "dbt_version": "1.7.9", "profile_name": "olist_dw", "target_name": "dev", "node_id": "test.olist_dw.test_delivery_date_after_order_date"} */
+select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      SELECT COUNT(*) 
+FROM "postgres"."analytics"."int_orders_enriched" 
+WHERE delivered_customer_date < purchase_timestamp
+      
+    ) dbt_internal_test
+[0m13:07:52.620923 [debug] [Thread-3 (]: SQL status: BEGIN in 0.0 seconds
+[0m13:07:52.621941 [debug] [Thread-3 (]: Using postgres connection "test.olist_dw.not_null_mart_seller_scorecard_seller_id.e48881e0a8"
+[0m13:07:52.622576 [debug] [Thread-3 (]: On test.olist_dw.not_null_mart_seller_scorecard_seller_id.e48881e0a8: /* {"app": "dbt", "dbt_version": "1.7.9", "profile_name": "olist_dw", "target_name": "dev", "node_id": "test.olist_dw.not_null_mart_seller_scorecard_seller_id.e48881e0a8"} */
+select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+    
+
+
+
+select seller_id
+from "postgres"."analytics"."mart_seller_scorecard"
+where seller_id is null
+
+
+
+      
+    ) dbt_internal_test
+[0m13:07:52.650058 [debug] [Thread-1 (]: SQL status: BEGIN in 0.0 seconds
+[0m13:07:52.651916 [debug] [Thread-1 (]: Using postgres connection "test.olist_dw.test_no_negative_revenue"
+[0m13:07:52.652631 [debug] [Thread-1 (]: On test.olist_dw.test_no_negative_revenue: /* {"app": "dbt", "dbt_version": "1.7.9", "profile_name": "olist_dw", "target_name": "dev", "node_id": "test.olist_dw.test_no_negative_revenue"} */
+select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      SELECT COUNT(*) 
+FROM "postgres"."analytics"."mart_revenue_summary" 
+WHERE gmv < 0
+      
+    ) dbt_internal_test
+[0m13:07:52.669130 [debug] [Thread-3 (]: SQL status: SELECT 1 in 0.0 seconds
+[0m13:07:52.672548 [debug] [Thread-3 (]: Timing info for test.olist_dw.not_null_mart_seller_scorecard_seller_id.e48881e0a8 (execute): 13:07:52.190912 => 13:07:52.672126
+[0m13:07:52.673094 [debug] [Thread-3 (]: On test.olist_dw.not_null_mart_seller_scorecard_seller_id.e48881e0a8: ROLLBACK
+[0m13:07:52.700159 [debug] [Thread-1 (]: SQL status: SELECT 1 in 0.0 seconds
+[0m13:07:52.702913 [debug] [Thread-1 (]: Timing info for test.olist_dw.test_no_negative_revenue (execute): 13:07:52.235430 => 13:07:52.702557
+[0m13:07:52.703435 [debug] [Thread-1 (]: On test.olist_dw.test_no_negative_revenue: ROLLBACK
+[0m13:07:52.717524 [debug] [Thread-3 (]: On test.olist_dw.not_null_mart_seller_scorecard_seller_id.e48881e0a8: Close
+[0m13:07:52.721148 [info ] [Thread-3 (]: 5 of 10 PASS not_null_mart_seller_scorecard_seller_id .......................... [[32mPASS[0m in 0.55s]
+[0m13:07:52.722441 [debug] [Thread-3 (]: Finished running node test.olist_dw.not_null_mart_seller_scorecard_seller_id.e48881e0a8
+[0m13:07:52.723093 [debug] [Thread-3 (]: Began running node test.olist_dw.unique_mart_customer_segments_customer_id.b22ea316ad
+[0m13:07:52.723598 [info ] [Thread-3 (]: 9 of 10 START test unique_mart_customer_segments_customer_id ................... [RUN]
+[0m13:07:52.724801 [debug] [Thread-3 (]: Re-using an available connection from the pool (formerly test.olist_dw.not_null_mart_seller_scorecard_seller_id.e48881e0a8, now test.olist_dw.unique_mart_customer_segments_customer_id.b22ea316ad)
+[0m13:07:52.725349 [debug] [Thread-3 (]: Began compiling node test.olist_dw.unique_mart_customer_segments_customer_id.b22ea316ad
+[0m13:07:52.737264 [debug] [Thread-3 (]: Writing injected SQL for node "test.olist_dw.unique_mart_customer_segments_customer_id.b22ea316ad"
+[0m13:07:52.737886 [debug] [Thread-2 (]: SQL status: BEGIN in 0.0 seconds
+[0m13:07:52.738367 [debug] [Thread-2 (]: Using postgres connection "test.olist_dw.test_review_score_range"
+[0m13:07:52.738779 [debug] [Thread-2 (]: On test.olist_dw.test_review_score_range: /* {"app": "dbt", "dbt_version": "1.7.9", "profile_name": "olist_dw", "target_name": "dev", "node_id": "test.olist_dw.test_review_score_range"} */
+select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      SELECT COUNT(*) 
+FROM "postgres"."analytics"."stg_reviews" 
+WHERE review_score NOT BETWEEN 1 AND 5
+      
+    ) dbt_internal_test
+[0m13:07:52.741352 [debug] [Thread-3 (]: Timing info for test.olist_dw.unique_mart_customer_segments_customer_id.b22ea316ad (compile): 13:07:52.725605 => 13:07:52.741084
+[0m13:07:52.741713 [debug] [Thread-3 (]: Began executing node test.olist_dw.unique_mart_customer_segments_customer_id.b22ea316ad
+[0m13:07:52.743877 [debug] [Thread-3 (]: Writing runtime sql for node "test.olist_dw.unique_mart_customer_segments_customer_id.b22ea316ad"
+[0m13:07:52.745005 [debug] [Thread-3 (]: Using postgres connection "test.olist_dw.unique_mart_customer_segments_customer_id.b22ea316ad"
+[0m13:07:52.745253 [debug] [Thread-3 (]: On test.olist_dw.unique_mart_customer_segments_customer_id.b22ea316ad: BEGIN
+[0m13:07:52.745484 [debug] [Thread-3 (]: Opening a new connection, currently in state closed
+[0m13:07:52.747338 [debug] [Thread-1 (]: On test.olist_dw.test_no_negative_revenue: Close
+[0m13:07:52.748051 [error] [Thread-1 (]: 7 of 10 FAIL 1 test_no_negative_revenue ........................................ [[31mFAIL 1[0m in 0.52s]
+[0m13:07:52.748447 [debug] [Thread-1 (]: Finished running node test.olist_dw.test_no_negative_revenue
+[0m13:07:52.748723 [debug] [Thread-1 (]: Began running node test.olist_dw.unique_mart_seller_scorecard_seller_id.e01b896605
+[0m13:07:52.749001 [info ] [Thread-1 (]: 10 of 10 START test unique_mart_seller_scorecard_seller_id ..................... [RUN]
+[0m13:07:52.749497 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly test.olist_dw.test_no_negative_revenue, now test.olist_dw.unique_mart_seller_scorecard_seller_id.e01b896605)
+[0m13:07:52.749765 [debug] [Thread-1 (]: Began compiling node test.olist_dw.unique_mart_seller_scorecard_seller_id.e01b896605
+[0m13:07:52.753265 [debug] [Thread-1 (]: Writing injected SQL for node "test.olist_dw.unique_mart_seller_scorecard_seller_id.e01b896605"
+[0m13:07:52.753831 [debug] [Thread-1 (]: Timing info for test.olist_dw.unique_mart_seller_scorecard_seller_id.e01b896605 (compile): 13:07:52.749927 => 13:07:52.753675
+[0m13:07:52.754187 [debug] [Thread-1 (]: Began executing node test.olist_dw.unique_mart_seller_scorecard_seller_id.e01b896605
+[0m13:07:52.755619 [debug] [Thread-1 (]: Writing runtime sql for node "test.olist_dw.unique_mart_seller_scorecard_seller_id.e01b896605"
+[0m13:07:52.756257 [debug] [Thread-1 (]: Using postgres connection "test.olist_dw.unique_mart_seller_scorecard_seller_id.e01b896605"
+[0m13:07:52.756491 [debug] [Thread-1 (]: On test.olist_dw.unique_mart_seller_scorecard_seller_id.e01b896605: BEGIN
+[0m13:07:52.756693 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m13:07:52.783027 [debug] [Thread-2 (]: SQL status: SELECT 1 in 0.0 seconds
+[0m13:07:52.783958 [debug] [Thread-2 (]: Timing info for test.olist_dw.test_review_score_range (execute): 13:07:52.330613 => 13:07:52.783823
+[0m13:07:52.784170 [debug] [Thread-2 (]: On test.olist_dw.test_review_score_range: ROLLBACK
+[0m13:07:52.826822 [debug] [Thread-2 (]: On test.olist_dw.test_review_score_range: Close
+[0m13:07:52.827441 [error] [Thread-2 (]: 8 of 10 FAIL 1 test_review_score_range ......................................... [[31mFAIL 1[0m in 0.50s]
+[0m13:07:52.827738 [debug] [Thread-2 (]: Finished running node test.olist_dw.test_review_score_range
+[0m13:07:53.138437 [debug] [Thread-4 (]: SQL status: SELECT 1 in 1.0 seconds
+[0m13:07:53.139619 [debug] [Thread-1 (]: SQL status: BEGIN in 0.0 seconds
+[0m13:07:53.140501 [debug] [Thread-3 (]: SQL status: BEGIN in 0.0 seconds
+[0m13:07:53.142701 [debug] [Thread-4 (]: Timing info for test.olist_dw.test_delivery_date_after_order_date (execute): 13:07:52.197410 => 13:07:53.142390
+[0m13:07:53.143198 [debug] [Thread-1 (]: Using postgres connection "test.olist_dw.unique_mart_seller_scorecard_seller_id.e01b896605"
+[0m13:07:53.143593 [debug] [Thread-3 (]: Using postgres connection "test.olist_dw.unique_mart_customer_segments_customer_id.b22ea316ad"
+[0m13:07:53.144050 [debug] [Thread-4 (]: On test.olist_dw.test_delivery_date_after_order_date: ROLLBACK
+[0m13:07:53.144506 [debug] [Thread-1 (]: On test.olist_dw.unique_mart_seller_scorecard_seller_id.e01b896605: /* {"app": "dbt", "dbt_version": "1.7.9", "profile_name": "olist_dw", "target_name": "dev", "node_id": "test.olist_dw.unique_mart_seller_scorecard_seller_id.e01b896605"} */
+select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+    
+
+select
+    seller_id as unique_field,
+    count(*) as n_records
+
+from "postgres"."analytics"."mart_seller_scorecard"
+where seller_id is not null
+group by seller_id
+having count(*) > 1
+
+
+
+      
+    ) dbt_internal_test
+[0m13:07:53.144954 [debug] [Thread-3 (]: On test.olist_dw.unique_mart_customer_segments_customer_id.b22ea316ad: /* {"app": "dbt", "dbt_version": "1.7.9", "profile_name": "olist_dw", "target_name": "dev", "node_id": "test.olist_dw.unique_mart_customer_segments_customer_id.b22ea316ad"} */
+select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+    
+
+select
+    customer_id as unique_field,
+    count(*) as n_records
+
+from "postgres"."analytics"."mart_customer_segments"
+where customer_id is not null
+group by customer_id
+having count(*) > 1
+
+
+
+      
+    ) dbt_internal_test
+[0m13:07:53.186008 [debug] [Thread-4 (]: On test.olist_dw.test_delivery_date_after_order_date: Close
+[0m13:07:53.188876 [debug] [Thread-1 (]: SQL status: SELECT 1 in 0.0 seconds
+[0m13:07:53.188349 [error] [Thread-4 (]: 6 of 10 FAIL 1 test_delivery_date_after_order_date ............................. [[31mFAIL 1[0m in 1.00s]
+[0m13:07:53.191378 [debug] [Thread-1 (]: Timing info for test.olist_dw.unique_mart_seller_scorecard_seller_id.e01b896605 (execute): 13:07:52.754341 => 13:07:53.191032
+[0m13:07:53.192055 [debug] [Thread-4 (]: Finished running node test.olist_dw.test_delivery_date_after_order_date
+[0m13:07:53.192514 [debug] [Thread-1 (]: On test.olist_dw.unique_mart_seller_scorecard_seller_id.e01b896605: ROLLBACK
+[0m13:07:53.232934 [debug] [Thread-1 (]: On test.olist_dw.unique_mart_seller_scorecard_seller_id.e01b896605: Close
+[0m13:07:53.233734 [info ] [Thread-1 (]: 10 of 10 PASS unique_mart_seller_scorecard_seller_id ........................... [[32mPASS[0m in 0.48s]
+[0m13:07:53.234110 [debug] [Thread-1 (]: Finished running node test.olist_dw.unique_mart_seller_scorecard_seller_id.e01b896605
+[0m13:07:53.250067 [debug] [Thread-3 (]: SQL status: SELECT 1 in 0.0 seconds
+[0m13:07:53.251160 [debug] [Thread-3 (]: Timing info for test.olist_dw.unique_mart_customer_segments_customer_id.b22ea316ad (execute): 13:07:52.741906 => 13:07:53.250993
+[0m13:07:53.251417 [debug] [Thread-3 (]: On test.olist_dw.unique_mart_customer_segments_customer_id.b22ea316ad: ROLLBACK
+[0m13:07:53.291290 [debug] [Thread-3 (]: On test.olist_dw.unique_mart_customer_segments_customer_id.b22ea316ad: Close
+[0m13:07:53.292051 [info ] [Thread-3 (]: 9 of 10 PASS unique_mart_customer_segments_customer_id ......................... [[32mPASS[0m in 0.57s]
+[0m13:07:53.292420 [debug] [Thread-3 (]: Finished running node test.olist_dw.unique_mart_customer_segments_customer_id.b22ea316ad
+[0m13:07:53.293472 [debug] [MainThread]: Using postgres connection "master"
+[0m13:07:53.293675 [debug] [MainThread]: On master: BEGIN
+[0m13:07:53.293845 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m13:07:53.691668 [debug] [MainThread]: SQL status: BEGIN in 0.0 seconds
+[0m13:07:53.692785 [debug] [MainThread]: On master: COMMIT
+[0m13:07:53.693514 [debug] [MainThread]: Using postgres connection "master"
+[0m13:07:53.693990 [debug] [MainThread]: On master: COMMIT
+[0m13:07:53.735827 [debug] [MainThread]: SQL status: COMMIT in 0.0 seconds
+[0m13:07:53.737128 [debug] [MainThread]: On master: Close
+[0m13:07:53.739075 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m13:07:53.739584 [debug] [MainThread]: Connection 'test.olist_dw.unique_mart_seller_scorecard_seller_id.e01b896605' was properly closed.
+[0m13:07:53.739947 [debug] [MainThread]: Connection 'test.olist_dw.test_delivery_date_after_order_date' was properly closed.
+[0m13:07:53.740231 [debug] [MainThread]: Connection 'test.olist_dw.unique_mart_customer_segments_customer_id.b22ea316ad' was properly closed.
+[0m13:07:53.740490 [debug] [MainThread]: Connection 'test.olist_dw.test_review_score_range' was properly closed.
+[0m13:07:53.741076 [info ] [MainThread]: 
+[0m13:07:53.741552 [info ] [MainThread]: Finished running 10 tests in 0 hours 0 minutes and 3.40 seconds (3.40s).
+[0m13:07:53.743615 [debug] [MainThread]: Command end result
+[0m13:07:53.756378 [info ] [MainThread]: 
+[0m13:07:53.756876 [info ] [MainThread]: [31mCompleted with 4 errors and 0 warnings:[0m
+[0m13:07:53.757233 [info ] [MainThread]: 
+[0m13:07:53.757628 [error] [MainThread]: [31mFailure in test not_null_mart_revenue_summary_gmv (models/schema.yml)[0m
+[0m13:07:53.757918 [error] [MainThread]:   Got 1 result, configured to fail if != 0
+[0m13:07:53.758179 [info ] [MainThread]: 
+[0m13:07:53.758449 [info ] [MainThread]:   compiled Code at target/compiled/olist_dw/models/schema.yml/not_null_mart_revenue_summary_gmv.sql
+[0m13:07:53.758695 [info ] [MainThread]: 
+[0m13:07:53.759005 [error] [MainThread]: [31mFailure in test test_no_negative_revenue (tests/test_no_negative_revenue.sql)[0m
+[0m13:07:53.759232 [error] [MainThread]:   Got 1 result, configured to fail if != 0
+[0m13:07:53.759505 [info ] [MainThread]: 
+[0m13:07:53.760010 [info ] [MainThread]:   compiled Code at target/compiled/olist_dw/tests/test_no_negative_revenue.sql
+[0m13:07:53.760339 [info ] [MainThread]: 
+[0m13:07:53.760651 [error] [MainThread]: [31mFailure in test test_review_score_range (tests/test_review_score_range.sql)[0m
+[0m13:07:53.760917 [error] [MainThread]:   Got 1 result, configured to fail if != 0
+[0m13:07:53.761155 [info ] [MainThread]: 
+[0m13:07:53.761374 [info ] [MainThread]:   compiled Code at target/compiled/olist_dw/tests/test_review_score_range.sql
+[0m13:07:53.761593 [info ] [MainThread]: 
+[0m13:07:53.761811 [error] [MainThread]: [31mFailure in test test_delivery_date_after_order_date (tests/test_delivery_date_after_order_date.sql)[0m
+[0m13:07:53.762026 [error] [MainThread]:   Got 1 result, configured to fail if != 0
+[0m13:07:53.762351 [info ] [MainThread]: 
+[0m13:07:53.762578 [info ] [MainThread]:   compiled Code at target/compiled/olist_dw/tests/test_delivery_date_after_order_date.sql
+[0m13:07:53.762819 [info ] [MainThread]: 
+[0m13:07:53.763056 [info ] [MainThread]: Done. PASS=6 WARN=0 ERROR=4 SKIP=0 TOTAL=10
+[0m13:07:53.765656 [debug] [MainThread]: Resource report: {"command_name": "test", "command_wall_clock_time": 3.5907133, "process_user_time": 1.035604, "process_kernel_time": 0.142903, "process_mem_max_rss": "139608064", "command_success": false, "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m13:07:53.766096 [debug] [MainThread]: Command `dbt test` failed at 13:07:53.765982 after 3.59 seconds
+[0m13:07:53.766434 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x109dffa10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10aec8f70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10aeca780>]}
+[0m13:07:53.766755 [debug] [MainThread]: Flushing usage events
+[0m13:08:09.260579 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10b7d8830>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10d713890>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10d713750>]}
+
+
+============================== 13:08:09.262208 | 134fa1db-c250-4576-be66-ea8a1a50cd27 ==============================
+[0m13:08:09.262208 [info ] [MainThread]: Running with dbt=1.7.9
+[0m13:08:09.262436 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '.', 'fail_fast': 'False', 'version_check': 'True', 'log_path': '/Users/chokkapusaatvika/Downloads/olist-ecommerce-intelligence/olist_dw/logs', 'debug': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'log_format': 'default', 'static_parser': 'True', 'target_path': 'None', 'invocation_command': 'dbt docs generate', 'send_anonymous_usage_stats': 'True'}
+[0m13:08:09.324217 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '134fa1db-c250-4576-be66-ea8a1a50cd27', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10d69b360>]}
+[0m13:08:09.351753 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '134fa1db-c250-4576-be66-ea8a1a50cd27', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10deb2360>]}
+[0m13:08:09.352239 [info ] [MainThread]: Registered adapter: postgres=1.7.9
+[0m13:08:09.358977 [debug] [MainThread]: checksum: 6ff0d83c3b46f350064523b4e08d9241403ad71d606ba49c4e670afba3668b39, vars: {}, profile: , target: , version: 1.7.9
+[0m13:08:09.371824 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m13:08:09.372025 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m13:08:09.374612 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '134fa1db-c250-4576-be66-ea8a1a50cd27', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10e612350>]}
+[0m13:08:09.376234 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '134fa1db-c250-4576-be66-ea8a1a50cd27', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10e55bd40>]}
+[0m13:08:09.376405 [info ] [MainThread]: Found 15 models, 10 tests, 9 sources, 0 exposures, 0 metrics, 401 macros, 0 groups, 0 semantic models
+[0m13:08:09.376542 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '134fa1db-c250-4576-be66-ea8a1a50cd27', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10e577a10>]}
+[0m13:08:09.377615 [info ] [MainThread]: 
+[0m13:08:09.377915 [debug] [MainThread]: Acquiring new postgres connection 'master'
+[0m13:08:09.378530 [debug] [ThreadPool]: Acquiring new postgres connection 'list_postgres_analytics'
+[0m13:08:09.382421 [debug] [ThreadPool]: Using postgres connection "list_postgres_analytics"
+[0m13:08:09.382544 [debug] [ThreadPool]: On list_postgres_analytics: BEGIN
+[0m13:08:09.382643 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m13:08:09.853463 [debug] [ThreadPool]: SQL status: BEGIN in 0.0 seconds
+[0m13:08:09.854283 [debug] [ThreadPool]: Using postgres connection "list_postgres_analytics"
+[0m13:08:09.854732 [debug] [ThreadPool]: On list_postgres_analytics: /* {"app": "dbt", "dbt_version": "1.7.9", "profile_name": "olist_dw", "target_name": "dev", "connection_name": "list_postgres_analytics"} */
+select
+      'postgres' as database,
+      tablename as name,
+      schemaname as schema,
+      'table' as type
+    from pg_tables
+    where schemaname ilike 'analytics'
+    union all
+    select
+      'postgres' as database,
+      viewname as name,
+      schemaname as schema,
+      'view' as type
+    from pg_views
+    where schemaname ilike 'analytics'
+    union all
+    select
+      'postgres' as database,
+      matviewname as name,
+      schemaname as schema,
+      'materialized_view' as type
+    from pg_matviews
+    where schemaname ilike 'analytics'
+  
+[0m13:08:09.912510 [debug] [ThreadPool]: SQL status: SELECT 15 in 0.0 seconds
+[0m13:08:09.916397 [debug] [ThreadPool]: On list_postgres_analytics: ROLLBACK
+[0m13:08:09.958844 [debug] [ThreadPool]: On list_postgres_analytics: Close
+[0m13:08:09.972370 [debug] [MainThread]: Using postgres connection "master"
+[0m13:08:09.972992 [debug] [MainThread]: On master: BEGIN
+[0m13:08:09.973294 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m13:08:10.386948 [debug] [MainThread]: SQL status: BEGIN in 0.0 seconds
+[0m13:08:10.387761 [debug] [MainThread]: Using postgres connection "master"
+[0m13:08:10.388330 [debug] [MainThread]: On master: /* {"app": "dbt", "dbt_version": "1.7.9", "profile_name": "olist_dw", "target_name": "dev", "connection_name": "master"} */
+with relation as (
+        select
+            pg_rewrite.ev_class as class,
+            pg_rewrite.oid as id
+        from pg_rewrite
+    ),
+    class as (
+        select
+            oid as id,
+            relname as name,
+            relnamespace as schema,
+            relkind as kind
+        from pg_class
+    ),
+    dependency as (
+        select distinct
+            pg_depend.objid as id,
+            pg_depend.refobjid as ref
+        from pg_depend
+    ),
+    schema as (
+        select
+            pg_namespace.oid as id,
+            pg_namespace.nspname as name
+        from pg_namespace
+        where nspname != 'information_schema' and nspname not like 'pg\_%'
+    ),
+    referenced as (
+        select
+            relation.id AS id,
+            referenced_class.name ,
+            referenced_class.schema ,
+            referenced_class.kind
+        from relation
+        join class as referenced_class on relation.class=referenced_class.id
+        where referenced_class.kind in ('r', 'v', 'm')
+    ),
+    relationships as (
+        select
+            referenced.name as referenced_name,
+            referenced.schema as referenced_schema_id,
+            dependent_class.name as dependent_name,
+            dependent_class.schema as dependent_schema_id,
+            referenced.kind as kind
+        from referenced
+        join dependency on referenced.id=dependency.id
+        join class as dependent_class on dependency.ref=dependent_class.id
+        where
+            (referenced.name != dependent_class.name or
+             referenced.schema != dependent_class.schema)
+    )
+
+    select
+        referenced_schema.name as referenced_schema,
+        relationships.referenced_name as referenced_name,
+        dependent_schema.name as dependent_schema,
+        relationships.dependent_name as dependent_name
+    from relationships
+    join schema as dependent_schema on relationships.dependent_schema_id=dependent_schema.id
+    join schema as referenced_schema on relationships.referenced_schema_id=referenced_schema.id
+    group by referenced_schema, referenced_name, dependent_schema, dependent_name
+    order by referenced_schema, referenced_name, dependent_schema, dependent_name;
+[0m13:08:10.443053 [debug] [MainThread]: SQL status: SELECT 19 in 0.0 seconds
+[0m13:08:10.447944 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '134fa1db-c250-4576-be66-ea8a1a50cd27', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10e6e4ef0>]}
+[0m13:08:10.448571 [debug] [MainThread]: On master: ROLLBACK
+[0m13:08:10.491686 [debug] [MainThread]: On master: Close
+[0m13:08:10.493830 [info ] [MainThread]: Concurrency: 4 threads (target='dev')
+[0m13:08:10.494514 [info ] [MainThread]: 
+[0m13:08:10.498284 [debug] [Thread-3 (]: Began running node model.olist_dw.stg_orders
+[0m13:08:10.498768 [debug] [Thread-1 (]: Began running node model.olist_dw.stg_customers
+[0m13:08:10.499161 [debug] [Thread-2 (]: Began running node model.olist_dw.stg_order_items
+[0m13:08:10.499516 [debug] [Thread-4 (]: Began running node model.olist_dw.stg_payments
+[0m13:08:10.500378 [debug] [Thread-3 (]: Acquiring new postgres connection 'model.olist_dw.stg_orders'
+[0m13:08:10.501838 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly list_postgres_analytics, now model.olist_dw.stg_customers)
+[0m13:08:10.502846 [debug] [Thread-2 (]: Acquiring new postgres connection 'model.olist_dw.stg_order_items'
+[0m13:08:10.504007 [debug] [Thread-4 (]: Acquiring new postgres connection 'model.olist_dw.stg_payments'
+[0m13:08:10.504505 [debug] [Thread-3 (]: Began compiling node model.olist_dw.stg_orders
+[0m13:08:10.504854 [debug] [Thread-1 (]: Began compiling node model.olist_dw.stg_customers
+[0m13:08:10.505149 [debug] [Thread-2 (]: Began compiling node model.olist_dw.stg_order_items
+[0m13:08:10.505429 [debug] [Thread-4 (]: Began compiling node model.olist_dw.stg_payments
+[0m13:08:10.513685 [debug] [Thread-3 (]: Writing injected SQL for node "model.olist_dw.stg_orders"
+[0m13:08:10.520740 [debug] [Thread-1 (]: Writing injected SQL for node "model.olist_dw.stg_customers"
+[0m13:08:10.522859 [debug] [Thread-2 (]: Writing injected SQL for node "model.olist_dw.stg_order_items"
+[0m13:08:10.524700 [debug] [Thread-4 (]: Writing injected SQL for node "model.olist_dw.stg_payments"
+[0m13:08:10.525672 [debug] [Thread-1 (]: Timing info for model.olist_dw.stg_customers (compile): 13:08:10.514072 => 13:08:10.525463
+[0m13:08:10.526707 [debug] [Thread-1 (]: Began executing node model.olist_dw.stg_customers
+[0m13:08:10.526261 [debug] [Thread-3 (]: Timing info for model.olist_dw.stg_orders (compile): 13:08:10.505641 => 13:08:10.526139
+[0m13:08:10.526496 [debug] [Thread-4 (]: Timing info for model.olist_dw.stg_payments (compile): 13:08:10.523153 => 13:08:10.526385
+[0m13:08:10.526973 [debug] [Thread-1 (]: Timing info for model.olist_dw.stg_customers (execute): 13:08:10.526837 => 13:08:10.526854
+[0m13:08:10.526001 [debug] [Thread-2 (]: Timing info for model.olist_dw.stg_order_items (compile): 13:08:10.521033 => 13:08:10.525831
+[0m13:08:10.527180 [debug] [Thread-3 (]: Began executing node model.olist_dw.stg_orders
+[0m13:08:10.527372 [debug] [Thread-4 (]: Began executing node model.olist_dw.stg_payments
+[0m13:08:10.527955 [debug] [Thread-1 (]: Finished running node model.olist_dw.stg_customers
+[0m13:08:10.528161 [debug] [Thread-2 (]: Began executing node model.olist_dw.stg_order_items
+[0m13:08:10.528433 [debug] [Thread-3 (]: Timing info for model.olist_dw.stg_orders (execute): 13:08:10.528298 => 13:08:10.528303
+[0m13:08:10.528684 [debug] [Thread-4 (]: Timing info for model.olist_dw.stg_payments (execute): 13:08:10.528570 => 13:08:10.528574
+[0m13:08:10.528934 [debug] [Thread-1 (]: Began running node model.olist_dw.stg_products
+[0m13:08:10.529217 [debug] [Thread-2 (]: Timing info for model.olist_dw.stg_order_items (execute): 13:08:10.529108 => 13:08:10.529111
+[0m13:08:10.529720 [debug] [Thread-3 (]: Finished running node model.olist_dw.stg_orders
+[0m13:08:10.530180 [debug] [Thread-4 (]: Finished running node model.olist_dw.stg_payments
+[0m13:08:10.530550 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.olist_dw.stg_customers, now model.olist_dw.stg_products)
+[0m13:08:10.531023 [debug] [Thread-2 (]: Finished running node model.olist_dw.stg_order_items
+[0m13:08:10.531334 [debug] [Thread-3 (]: Began running node model.olist_dw.stg_reviews
+[0m13:08:10.531653 [debug] [Thread-4 (]: Began running node model.olist_dw.stg_sellers
+[0m13:08:10.531880 [debug] [Thread-1 (]: Began compiling node model.olist_dw.stg_products
+[0m13:08:10.532240 [debug] [Thread-3 (]: Re-using an available connection from the pool (formerly model.olist_dw.stg_orders, now model.olist_dw.stg_reviews)
+[0m13:08:10.532604 [debug] [Thread-4 (]: Re-using an available connection from the pool (formerly model.olist_dw.stg_payments, now model.olist_dw.stg_sellers)
+[0m13:08:10.534545 [debug] [Thread-1 (]: Writing injected SQL for node "model.olist_dw.stg_products"
+[0m13:08:10.534797 [debug] [Thread-3 (]: Began compiling node model.olist_dw.stg_reviews
+[0m13:08:10.535006 [debug] [Thread-4 (]: Began compiling node model.olist_dw.stg_sellers
+[0m13:08:10.537027 [debug] [Thread-3 (]: Writing injected SQL for node "model.olist_dw.stg_reviews"
+[0m13:08:10.538415 [debug] [Thread-4 (]: Writing injected SQL for node "model.olist_dw.stg_sellers"
+[0m13:08:10.538944 [debug] [Thread-1 (]: Timing info for model.olist_dw.stg_products (compile): 13:08:10.532740 => 13:08:10.538818
+[0m13:08:10.539131 [debug] [Thread-1 (]: Began executing node model.olist_dw.stg_products
+[0m13:08:10.539331 [debug] [Thread-1 (]: Timing info for model.olist_dw.stg_products (execute): 13:08:10.539236 => 13:08:10.539241
+[0m13:08:10.539540 [debug] [Thread-4 (]: Timing info for model.olist_dw.stg_sellers (compile): 13:08:10.537197 => 13:08:10.539431
+[0m13:08:10.539974 [debug] [Thread-1 (]: Finished running node model.olist_dw.stg_products
+[0m13:08:10.540164 [debug] [Thread-3 (]: Timing info for model.olist_dw.stg_reviews (compile): 13:08:10.535166 => 13:08:10.540074
+[0m13:08:10.540330 [debug] [Thread-4 (]: Began executing node model.olist_dw.stg_sellers
+[0m13:08:10.540531 [debug] [Thread-3 (]: Began executing node model.olist_dw.stg_reviews
+[0m13:08:10.540775 [debug] [Thread-4 (]: Timing info for model.olist_dw.stg_sellers (execute): 13:08:10.540672 => 13:08:10.540676
+[0m13:08:10.540988 [debug] [Thread-3 (]: Timing info for model.olist_dw.stg_reviews (execute): 13:08:10.540885 => 13:08:10.540888
+[0m13:08:10.541380 [debug] [Thread-4 (]: Finished running node model.olist_dw.stg_sellers
+[0m13:08:10.541855 [debug] [Thread-3 (]: Finished running node model.olist_dw.stg_reviews
+[0m13:08:10.542307 [debug] [Thread-2 (]: Began running node model.olist_dw.int_orders_enriched
+[0m13:08:10.542562 [debug] [Thread-1 (]: Began running node test.olist_dw.test_review_score_range
+[0m13:08:10.542863 [debug] [Thread-2 (]: Re-using an available connection from the pool (formerly model.olist_dw.stg_order_items, now model.olist_dw.int_orders_enriched)
+[0m13:08:10.543134 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.olist_dw.stg_products, now test.olist_dw.test_review_score_range)
+[0m13:08:10.543313 [debug] [Thread-2 (]: Began compiling node model.olist_dw.int_orders_enriched
+[0m13:08:10.543484 [debug] [Thread-1 (]: Began compiling node test.olist_dw.test_review_score_range
+[0m13:08:10.544988 [debug] [Thread-2 (]: Writing injected SQL for node "model.olist_dw.int_orders_enriched"
+[0m13:08:10.546324 [debug] [Thread-1 (]: Writing injected SQL for node "test.olist_dw.test_review_score_range"
+[0m13:08:10.546738 [debug] [Thread-1 (]: Timing info for test.olist_dw.test_review_score_range (compile): 13:08:10.545102 => 13:08:10.546608
+[0m13:08:10.546944 [debug] [Thread-2 (]: Timing info for model.olist_dw.int_orders_enriched (compile): 13:08:10.543590 => 13:08:10.546851
+[0m13:08:10.547102 [debug] [Thread-1 (]: Began executing node test.olist_dw.test_review_score_range
+[0m13:08:10.547261 [debug] [Thread-2 (]: Began executing node model.olist_dw.int_orders_enriched
+[0m13:08:10.547455 [debug] [Thread-1 (]: Timing info for test.olist_dw.test_review_score_range (execute): 13:08:10.547359 => 13:08:10.547363
+[0m13:08:10.547671 [debug] [Thread-2 (]: Timing info for model.olist_dw.int_orders_enriched (execute): 13:08:10.547564 => 13:08:10.547568
+[0m13:08:10.548036 [debug] [Thread-1 (]: Finished running node test.olist_dw.test_review_score_range
+[0m13:08:10.548422 [debug] [Thread-2 (]: Finished running node model.olist_dw.int_orders_enriched
+[0m13:08:10.548791 [debug] [Thread-3 (]: Began running node model.olist_dw.int_delivery_analysis
+[0m13:08:10.548966 [debug] [Thread-1 (]: Began running node model.olist_dw.int_seller_performance
+[0m13:08:10.549244 [debug] [Thread-3 (]: Re-using an available connection from the pool (formerly model.olist_dw.stg_reviews, now model.olist_dw.int_delivery_analysis)
+[0m13:08:10.549399 [debug] [Thread-4 (]: Began running node model.olist_dw.int_customer_rfm
+[0m13:08:10.549544 [debug] [Thread-2 (]: Began running node model.olist_dw.mart_revenue_summary
+[0m13:08:10.549789 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly test.olist_dw.test_review_score_range, now model.olist_dw.int_seller_performance)
+[0m13:08:10.549980 [debug] [Thread-3 (]: Began compiling node model.olist_dw.int_delivery_analysis
+[0m13:08:10.550215 [debug] [Thread-4 (]: Re-using an available connection from the pool (formerly model.olist_dw.stg_sellers, now model.olist_dw.int_customer_rfm)
+[0m13:08:10.550627 [debug] [Thread-2 (]: Re-using an available connection from the pool (formerly model.olist_dw.int_orders_enriched, now model.olist_dw.mart_revenue_summary)
+[0m13:08:10.550805 [debug] [Thread-1 (]: Began compiling node model.olist_dw.int_seller_performance
+[0m13:08:10.552353 [debug] [Thread-3 (]: Writing injected SQL for node "model.olist_dw.int_delivery_analysis"
+[0m13:08:10.552537 [debug] [Thread-4 (]: Began compiling node model.olist_dw.int_customer_rfm
+[0m13:08:10.552721 [debug] [Thread-2 (]: Began compiling node model.olist_dw.mart_revenue_summary
+[0m13:08:10.553874 [debug] [Thread-1 (]: Writing injected SQL for node "model.olist_dw.int_seller_performance"
+[0m13:08:10.555764 [debug] [Thread-4 (]: Writing injected SQL for node "model.olist_dw.int_customer_rfm"
+[0m13:08:10.556989 [debug] [Thread-2 (]: Writing injected SQL for node "model.olist_dw.mart_revenue_summary"
+[0m13:08:10.557293 [debug] [Thread-3 (]: Timing info for model.olist_dw.int_delivery_analysis (compile): 13:08:10.550947 => 13:08:10.557191
+[0m13:08:10.557442 [debug] [Thread-3 (]: Began executing node model.olist_dw.int_delivery_analysis
+[0m13:08:10.557663 [debug] [Thread-3 (]: Timing info for model.olist_dw.int_delivery_analysis (execute): 13:08:10.557571 => 13:08:10.557576
+[0m13:08:10.558039 [debug] [Thread-3 (]: Finished running node model.olist_dw.int_delivery_analysis
+[0m13:08:10.558222 [debug] [Thread-3 (]: Began running node test.olist_dw.test_delivery_date_after_order_date
+[0m13:08:10.558437 [debug] [Thread-4 (]: Timing info for model.olist_dw.int_customer_rfm (compile): 13:08:10.554080 => 13:08:10.558340
+[0m13:08:10.558678 [debug] [Thread-3 (]: Re-using an available connection from the pool (formerly model.olist_dw.int_delivery_analysis, now test.olist_dw.test_delivery_date_after_order_date)
+[0m13:08:10.558897 [debug] [Thread-1 (]: Timing info for model.olist_dw.int_seller_performance (compile): 13:08:10.552830 => 13:08:10.558801
+[0m13:08:10.559043 [debug] [Thread-4 (]: Began executing node model.olist_dw.int_customer_rfm
+[0m13:08:10.559211 [debug] [Thread-2 (]: Timing info for model.olist_dw.mart_revenue_summary (compile): 13:08:10.555927 => 13:08:10.559129
+[0m13:08:10.559350 [debug] [Thread-3 (]: Began compiling node test.olist_dw.test_delivery_date_after_order_date
+[0m13:08:10.559499 [debug] [Thread-1 (]: Began executing node model.olist_dw.int_seller_performance
+[0m13:08:10.559676 [debug] [Thread-4 (]: Timing info for model.olist_dw.int_customer_rfm (execute): 13:08:10.559593 => 13:08:10.559596
+[0m13:08:10.559810 [debug] [Thread-2 (]: Began executing node model.olist_dw.mart_revenue_summary
+[0m13:08:10.560729 [debug] [Thread-3 (]: Writing injected SQL for node "test.olist_dw.test_delivery_date_after_order_date"
+[0m13:08:10.560927 [debug] [Thread-1 (]: Timing info for model.olist_dw.int_seller_performance (execute): 13:08:10.560829 => 13:08:10.560832
+[0m13:08:10.561259 [debug] [Thread-4 (]: Finished running node model.olist_dw.int_customer_rfm
+[0m13:08:10.561423 [debug] [Thread-2 (]: Timing info for model.olist_dw.mart_revenue_summary (execute): 13:08:10.561345 => 13:08:10.561347
+[0m13:08:10.561753 [debug] [Thread-1 (]: Finished running node model.olist_dw.int_seller_performance
+[0m13:08:10.561915 [debug] [Thread-4 (]: Began running node model.olist_dw.mart_delivery_sla
+[0m13:08:10.562232 [debug] [Thread-2 (]: Finished running node model.olist_dw.mart_revenue_summary
+[0m13:08:10.562434 [debug] [Thread-1 (]: Began running node model.olist_dw.mart_customer_segments
+[0m13:08:10.562592 [debug] [Thread-3 (]: Timing info for test.olist_dw.test_delivery_date_after_order_date (compile): 13:08:10.559895 => 13:08:10.562521
+[0m13:08:10.562822 [debug] [Thread-4 (]: Re-using an available connection from the pool (formerly model.olist_dw.int_customer_rfm, now model.olist_dw.mart_delivery_sla)
+[0m13:08:10.562999 [debug] [Thread-2 (]: Began running node model.olist_dw.mart_seller_scorecard
+[0m13:08:10.563245 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.olist_dw.int_seller_performance, now model.olist_dw.mart_customer_segments)
+[0m13:08:10.563404 [debug] [Thread-3 (]: Began executing node test.olist_dw.test_delivery_date_after_order_date
+[0m13:08:10.563539 [debug] [Thread-4 (]: Began compiling node model.olist_dw.mart_delivery_sla
+[0m13:08:10.563756 [debug] [Thread-2 (]: Re-using an available connection from the pool (formerly model.olist_dw.mart_revenue_summary, now model.olist_dw.mart_seller_scorecard)
+[0m13:08:10.563898 [debug] [Thread-1 (]: Began compiling node model.olist_dw.mart_customer_segments
+[0m13:08:10.564057 [debug] [Thread-3 (]: Timing info for test.olist_dw.test_delivery_date_after_order_date (execute): 13:08:10.563982 => 13:08:10.563985
+[0m13:08:10.564967 [debug] [Thread-4 (]: Writing injected SQL for node "model.olist_dw.mart_delivery_sla"
+[0m13:08:10.565105 [debug] [Thread-2 (]: Began compiling node model.olist_dw.mart_seller_scorecard
+[0m13:08:10.566243 [debug] [Thread-1 (]: Writing injected SQL for node "model.olist_dw.mart_customer_segments"
+[0m13:08:10.566560 [debug] [Thread-3 (]: Finished running node test.olist_dw.test_delivery_date_after_order_date
+[0m13:08:10.567504 [debug] [Thread-2 (]: Writing injected SQL for node "model.olist_dw.mart_seller_scorecard"
+[0m13:08:10.567693 [debug] [Thread-3 (]: Began running node test.olist_dw.not_null_mart_revenue_summary_gmv.434a6703ee
+[0m13:08:10.567985 [debug] [Thread-3 (]: Re-using an available connection from the pool (formerly test.olist_dw.test_delivery_date_after_order_date, now test.olist_dw.not_null_mart_revenue_summary_gmv.434a6703ee)
+[0m13:08:10.568113 [debug] [Thread-3 (]: Began compiling node test.olist_dw.not_null_mart_revenue_summary_gmv.434a6703ee
+[0m13:08:10.568273 [debug] [Thread-4 (]: Timing info for model.olist_dw.mart_delivery_sla (compile): 13:08:10.564138 => 13:08:10.568190
+[0m13:08:10.572926 [debug] [Thread-3 (]: Writing injected SQL for node "test.olist_dw.not_null_mart_revenue_summary_gmv.434a6703ee"
+[0m13:08:10.573098 [debug] [Thread-1 (]: Timing info for model.olist_dw.mart_customer_segments (compile): 13:08:10.565188 => 13:08:10.573019
+[0m13:08:10.573239 [debug] [Thread-4 (]: Began executing node model.olist_dw.mart_delivery_sla
+[0m13:08:10.573397 [debug] [Thread-2 (]: Timing info for model.olist_dw.mart_seller_scorecard (compile): 13:08:10.566662 => 13:08:10.573318
+[0m13:08:10.573538 [debug] [Thread-1 (]: Began executing node model.olist_dw.mart_customer_segments
+[0m13:08:10.573710 [debug] [Thread-4 (]: Timing info for model.olist_dw.mart_delivery_sla (execute): 13:08:10.573634 => 13:08:10.573637
+[0m13:08:10.573832 [debug] [Thread-2 (]: Began executing node model.olist_dw.mart_seller_scorecard
+[0m13:08:10.573973 [debug] [Thread-3 (]: Timing info for test.olist_dw.not_null_mart_revenue_summary_gmv.434a6703ee (compile): 13:08:10.568364 => 13:08:10.573907
+[0m13:08:10.574124 [debug] [Thread-1 (]: Timing info for model.olist_dw.mart_customer_segments (execute): 13:08:10.574044 => 13:08:10.574047
+[0m13:08:10.574414 [debug] [Thread-4 (]: Finished running node model.olist_dw.mart_delivery_sla
+[0m13:08:10.574556 [debug] [Thread-2 (]: Timing info for model.olist_dw.mart_seller_scorecard (execute): 13:08:10.574491 => 13:08:10.574493
+[0m13:08:10.574674 [debug] [Thread-3 (]: Began executing node test.olist_dw.not_null_mart_revenue_summary_gmv.434a6703ee
+[0m13:08:10.574950 [debug] [Thread-1 (]: Finished running node model.olist_dw.mart_customer_segments
+[0m13:08:10.575092 [debug] [Thread-4 (]: Began running node test.olist_dw.test_no_negative_revenue
+[0m13:08:10.575374 [debug] [Thread-2 (]: Finished running node model.olist_dw.mart_seller_scorecard
+[0m13:08:10.575536 [debug] [Thread-3 (]: Timing info for test.olist_dw.not_null_mart_revenue_summary_gmv.434a6703ee (execute): 13:08:10.575466 => 13:08:10.575468
+[0m13:08:10.575670 [debug] [Thread-1 (]: Began running node test.olist_dw.accepted_values_mart_delivery_sla_is_late_delivery__True__False.53e4e3326d
+[0m13:08:10.575880 [debug] [Thread-4 (]: Re-using an available connection from the pool (formerly model.olist_dw.mart_delivery_sla, now test.olist_dw.test_no_negative_revenue)
+[0m13:08:10.576038 [debug] [Thread-2 (]: Began running node test.olist_dw.accepted_values_mart_customer_segments_rfm_segment__Champions__Loyal__At_Risk__Lost.520ea03716
+[0m13:08:10.576311 [debug] [Thread-3 (]: Finished running node test.olist_dw.not_null_mart_revenue_summary_gmv.434a6703ee
+[0m13:08:10.576530 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.olist_dw.mart_customer_segments, now test.olist_dw.accepted_values_mart_delivery_sla_is_late_delivery__True__False.53e4e3326d)
+[0m13:08:10.576657 [debug] [Thread-4 (]: Began compiling node test.olist_dw.test_no_negative_revenue
+[0m13:08:10.576845 [debug] [Thread-2 (]: Re-using an available connection from the pool (formerly model.olist_dw.mart_seller_scorecard, now test.olist_dw.accepted_values_mart_customer_segments_rfm_segment__Champions__Loyal__At_Risk__Lost.520ea03716)
+[0m13:08:10.576990 [debug] [Thread-3 (]: Began running node test.olist_dw.not_null_mart_customer_segments_customer_id.1f6a9d738a
+[0m13:08:10.577119 [debug] [Thread-1 (]: Began compiling node test.olist_dw.accepted_values_mart_delivery_sla_is_late_delivery__True__False.53e4e3326d
+[0m13:08:10.577945 [debug] [Thread-4 (]: Writing injected SQL for node "test.olist_dw.test_no_negative_revenue"
+[0m13:08:10.578077 [debug] [Thread-2 (]: Began compiling node test.olist_dw.accepted_values_mart_customer_segments_rfm_segment__Champions__Loyal__At_Risk__Lost.520ea03716
+[0m13:08:10.578279 [debug] [Thread-3 (]: Re-using an available connection from the pool (formerly test.olist_dw.not_null_mart_revenue_summary_gmv.434a6703ee, now test.olist_dw.not_null_mart_customer_segments_customer_id.1f6a9d738a)
+[0m13:08:10.580883 [debug] [Thread-1 (]: Writing injected SQL for node "test.olist_dw.accepted_values_mart_delivery_sla_is_late_delivery__True__False.53e4e3326d"
+[0m13:08:10.583188 [debug] [Thread-2 (]: Writing injected SQL for node "test.olist_dw.accepted_values_mart_customer_segments_rfm_segment__Champions__Loyal__At_Risk__Lost.520ea03716"
+[0m13:08:10.583332 [debug] [Thread-3 (]: Began compiling node test.olist_dw.not_null_mart_customer_segments_customer_id.1f6a9d738a
+[0m13:08:10.584747 [debug] [Thread-3 (]: Writing injected SQL for node "test.olist_dw.not_null_mart_customer_segments_customer_id.1f6a9d738a"
+[0m13:08:10.584936 [debug] [Thread-4 (]: Timing info for test.olist_dw.test_no_negative_revenue (compile): 13:08:10.577195 => 13:08:10.584858
+[0m13:08:10.585061 [debug] [Thread-4 (]: Began executing node test.olist_dw.test_no_negative_revenue
+[0m13:08:10.585201 [debug] [Thread-4 (]: Timing info for test.olist_dw.test_no_negative_revenue (execute): 13:08:10.585135 => 13:08:10.585138
+[0m13:08:10.585480 [debug] [Thread-4 (]: Finished running node test.olist_dw.test_no_negative_revenue
+[0m13:08:10.585638 [debug] [Thread-4 (]: Began running node test.olist_dw.unique_mart_customer_segments_customer_id.b22ea316ad
+[0m13:08:10.585872 [debug] [Thread-4 (]: Re-using an available connection from the pool (formerly test.olist_dw.test_no_negative_revenue, now test.olist_dw.unique_mart_customer_segments_customer_id.b22ea316ad)
+[0m13:08:10.586027 [debug] [Thread-3 (]: Timing info for test.olist_dw.not_null_mart_customer_segments_customer_id.1f6a9d738a (compile): 13:08:10.583484 => 13:08:10.585949
+[0m13:08:10.586167 [debug] [Thread-2 (]: Timing info for test.olist_dw.accepted_values_mart_customer_segments_rfm_segment__Champions__Loyal__At_Risk__Lost.520ea03716 (compile): 13:08:10.580993 => 13:08:10.586099
+[0m13:08:10.586295 [debug] [Thread-4 (]: Began compiling node test.olist_dw.unique_mart_customer_segments_customer_id.b22ea316ad
+[0m13:08:10.586446 [debug] [Thread-1 (]: Timing info for test.olist_dw.accepted_values_mart_delivery_sla_is_late_delivery__True__False.53e4e3326d (compile): 13:08:10.578366 => 13:08:10.586377
+[0m13:08:10.586563 [debug] [Thread-3 (]: Began executing node test.olist_dw.not_null_mart_customer_segments_customer_id.1f6a9d738a
+[0m13:08:10.586698 [debug] [Thread-2 (]: Began executing node test.olist_dw.accepted_values_mart_customer_segments_rfm_segment__Champions__Loyal__At_Risk__Lost.520ea03716
+[0m13:08:10.588712 [debug] [Thread-4 (]: Writing injected SQL for node "test.olist_dw.unique_mart_customer_segments_customer_id.b22ea316ad"
+[0m13:08:10.588854 [debug] [Thread-1 (]: Began executing node test.olist_dw.accepted_values_mart_delivery_sla_is_late_delivery__True__False.53e4e3326d
+[0m13:08:10.589010 [debug] [Thread-3 (]: Timing info for test.olist_dw.not_null_mart_customer_segments_customer_id.1f6a9d738a (execute): 13:08:10.588932 => 13:08:10.588935
+[0m13:08:10.589166 [debug] [Thread-2 (]: Timing info for test.olist_dw.accepted_values_mart_customer_segments_rfm_segment__Champions__Loyal__At_Risk__Lost.520ea03716 (execute): 13:08:10.589091 => 13:08:10.589094
+[0m13:08:10.589329 [debug] [Thread-1 (]: Timing info for test.olist_dw.accepted_values_mart_delivery_sla_is_late_delivery__True__False.53e4e3326d (execute): 13:08:10.589260 => 13:08:10.589262
+[0m13:08:10.589611 [debug] [Thread-3 (]: Finished running node test.olist_dw.not_null_mart_customer_segments_customer_id.1f6a9d738a
+[0m13:08:10.589888 [debug] [Thread-2 (]: Finished running node test.olist_dw.accepted_values_mart_customer_segments_rfm_segment__Champions__Loyal__At_Risk__Lost.520ea03716
+[0m13:08:10.590201 [debug] [Thread-1 (]: Finished running node test.olist_dw.accepted_values_mart_delivery_sla_is_late_delivery__True__False.53e4e3326d
+[0m13:08:10.590354 [debug] [Thread-3 (]: Began running node test.olist_dw.not_null_mart_seller_scorecard_seller_id.e48881e0a8
+[0m13:08:10.590513 [debug] [Thread-4 (]: Timing info for test.olist_dw.unique_mart_customer_segments_customer_id.b22ea316ad (compile): 13:08:10.586779 => 13:08:10.590443
+[0m13:08:10.590644 [debug] [Thread-2 (]: Began running node test.olist_dw.unique_mart_seller_scorecard_seller_id.e01b896605
+[0m13:08:10.590873 [debug] [Thread-3 (]: Re-using an available connection from the pool (formerly test.olist_dw.not_null_mart_customer_segments_customer_id.1f6a9d738a, now test.olist_dw.not_null_mart_seller_scorecard_seller_id.e48881e0a8)
+[0m13:08:10.591008 [debug] [Thread-4 (]: Began executing node test.olist_dw.unique_mart_customer_segments_customer_id.b22ea316ad
+[0m13:08:10.591203 [debug] [Thread-2 (]: Re-using an available connection from the pool (formerly test.olist_dw.accepted_values_mart_customer_segments_rfm_segment__Champions__Loyal__At_Risk__Lost.520ea03716, now test.olist_dw.unique_mart_seller_scorecard_seller_id.e01b896605)
+[0m13:08:10.591325 [debug] [Thread-3 (]: Began compiling node test.olist_dw.not_null_mart_seller_scorecard_seller_id.e48881e0a8
+[0m13:08:10.591466 [debug] [Thread-4 (]: Timing info for test.olist_dw.unique_mart_customer_segments_customer_id.b22ea316ad (execute): 13:08:10.591400 => 13:08:10.591402
+[0m13:08:10.591582 [debug] [Thread-2 (]: Began compiling node test.olist_dw.unique_mart_seller_scorecard_seller_id.e01b896605
+[0m13:08:10.593118 [debug] [Thread-3 (]: Writing injected SQL for node "test.olist_dw.not_null_mart_seller_scorecard_seller_id.e48881e0a8"
+[0m13:08:10.593405 [debug] [Thread-4 (]: Finished running node test.olist_dw.unique_mart_customer_segments_customer_id.b22ea316ad
+[0m13:08:10.594754 [debug] [Thread-2 (]: Writing injected SQL for node "test.olist_dw.unique_mart_seller_scorecard_seller_id.e01b896605"
+[0m13:08:10.595011 [debug] [Thread-3 (]: Timing info for test.olist_dw.not_null_mart_seller_scorecard_seller_id.e48881e0a8 (compile): 13:08:10.591664 => 13:08:10.594940
+[0m13:08:10.595133 [debug] [Thread-3 (]: Began executing node test.olist_dw.not_null_mart_seller_scorecard_seller_id.e48881e0a8
+[0m13:08:10.595270 [debug] [Thread-3 (]: Timing info for test.olist_dw.not_null_mart_seller_scorecard_seller_id.e48881e0a8 (execute): 13:08:10.595209 => 13:08:10.595211
+[0m13:08:10.595542 [debug] [Thread-3 (]: Finished running node test.olist_dw.not_null_mart_seller_scorecard_seller_id.e48881e0a8
+[0m13:08:10.595688 [debug] [Thread-2 (]: Timing info for test.olist_dw.unique_mart_seller_scorecard_seller_id.e01b896605 (compile): 13:08:10.593481 => 13:08:10.595614
+[0m13:08:10.595831 [debug] [Thread-2 (]: Began executing node test.olist_dw.unique_mart_seller_scorecard_seller_id.e01b896605
+[0m13:08:10.595969 [debug] [Thread-2 (]: Timing info for test.olist_dw.unique_mart_seller_scorecard_seller_id.e01b896605 (execute): 13:08:10.595903 => 13:08:10.595905
+[0m13:08:10.596200 [debug] [Thread-2 (]: Finished running node test.olist_dw.unique_mart_seller_scorecard_seller_id.e01b896605
+[0m13:08:10.596610 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m13:08:10.596714 [debug] [MainThread]: Connection 'test.olist_dw.accepted_values_mart_delivery_sla_is_late_delivery__True__False.53e4e3326d' was properly closed.
+[0m13:08:10.596797 [debug] [MainThread]: Connection 'test.olist_dw.not_null_mart_seller_scorecard_seller_id.e48881e0a8' was properly closed.
+[0m13:08:10.596878 [debug] [MainThread]: Connection 'test.olist_dw.unique_mart_seller_scorecard_seller_id.e01b896605' was properly closed.
+[0m13:08:10.596957 [debug] [MainThread]: Connection 'test.olist_dw.unique_mart_customer_segments_customer_id.b22ea316ad' was properly closed.
+[0m13:08:10.597896 [debug] [MainThread]: Command end result
+[0m13:08:10.602642 [debug] [MainThread]: Acquiring new postgres connection 'generate_catalog'
+[0m13:08:10.602750 [info ] [MainThread]: Building catalog
+[0m13:08:10.604292 [debug] [ThreadPool]: Acquiring new postgres connection 'postgres.information_schema'
+[0m13:08:10.606681 [debug] [ThreadPool]: Using postgres connection "postgres.information_schema"
+[0m13:08:10.606798 [debug] [ThreadPool]: On postgres.information_schema: BEGIN
+[0m13:08:10.606889 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m13:08:10.988940 [debug] [ThreadPool]: SQL status: BEGIN in 0.0 seconds
+[0m13:08:10.989800 [debug] [ThreadPool]: Using postgres connection "postgres.information_schema"
+[0m13:08:10.990529 [debug] [ThreadPool]: On postgres.information_schema: /* {"app": "dbt", "dbt_version": "1.7.9", "profile_name": "olist_dw", "target_name": "dev", "connection_name": "postgres.information_schema"} */
+
+    
+    
+
+    select
+        'postgres' as table_database,
+        sch.nspname as table_schema,
+        tbl.relname as table_name,
+        case tbl.relkind
+            when 'v' then 'VIEW'
+            when 'm' then 'MATERIALIZED VIEW'
+            else 'BASE TABLE'
+        end as table_type,
+        tbl_desc.description as table_comment,
+        col.attname as column_name,
+        col.attnum as column_index,
+        pg_catalog.format_type(col.atttypid, col.atttypmod) as column_type,
+        col_desc.description as column_comment,
+        pg_get_userbyid(tbl.relowner) as table_owner
+
+    from pg_catalog.pg_namespace sch
+    join pg_catalog.pg_class tbl on tbl.relnamespace = sch.oid
+    join pg_catalog.pg_attribute col on col.attrelid = tbl.oid
+    left outer join pg_catalog.pg_description tbl_desc on (tbl_desc.objoid = tbl.oid and tbl_desc.objsubid = 0)
+    left outer join pg_catalog.pg_description col_desc on (col_desc.objoid = tbl.oid and col_desc.objsubid = col.attnum)
+    where ((upper(sch.nspname) = upper('raw') and
+           upper(tbl.relname) = upper('olist_order_payments')) or (upper(sch.nspname) = upper('analytics') and
+           upper(tbl.relname) = upper('stg_products')) or (upper(sch.nspname) = upper('raw') and
+           upper(tbl.relname) = upper('olist_order_reviews')) or (upper(sch.nspname) = upper('analytics') and
+           upper(tbl.relname) = upper('stg_orders')) or (upper(sch.nspname) = upper('raw') and
+           upper(tbl.relname) = upper('olist_orders')) or (upper(sch.nspname) = upper('raw') and
+           upper(tbl.relname) = upper('olist_order_items')) or (upper(sch.nspname) = upper('analytics') and
+           upper(tbl.relname) = upper('int_orders_enriched')) or (upper(sch.nspname) = upper('analytics') and
+           upper(tbl.relname) = upper('int_delivery_analysis')) or (upper(sch.nspname) = upper('analytics') and
+           upper(tbl.relname) = upper('int_customer_rfm')) or (upper(sch.nspname) = upper('analytics') and
+           upper(tbl.relname) = upper('mart_customer_segments')) or (upper(sch.nspname) = upper('analytics') and
+           upper(tbl.relname) = upper('stg_reviews')) or (upper(sch.nspname) = upper('analytics') and
+           upper(tbl.relname) = upper('int_seller_performance')) or (upper(sch.nspname) = upper('raw') and
+           upper(tbl.relname) = upper('olist_customers')) or (upper(sch.nspname) = upper('raw') and
+           upper(tbl.relname) = upper('product_category_name_translation')) or (upper(sch.nspname) = upper('analytics') and
+           upper(tbl.relname) = upper('stg_sellers')) or (upper(sch.nspname) = upper('analytics') and
+           upper(tbl.relname) = upper('mart_revenue_summary')) or (upper(sch.nspname) = upper('raw') and
+           upper(tbl.relname) = upper('olist_sellers')) or (upper(sch.nspname) = upper('analytics') and
+           upper(tbl.relname) = upper('mart_delivery_sla')) or (upper(sch.nspname) = upper('raw') and
+           upper(tbl.relname) = upper('olist_products')) or (upper(sch.nspname) = upper('raw') and
+           upper(tbl.relname) = upper('olist_geolocation')) or (upper(sch.nspname) = upper('analytics') and
+           upper(tbl.relname) = upper('stg_order_items')) or (upper(sch.nspname) = upper('analytics') and
+           upper(tbl.relname) = upper('stg_payments')) or (upper(sch.nspname) = upper('analytics') and
+           upper(tbl.relname) = upper('stg_customers')) or (upper(sch.nspname) = upper('analytics') and
+           upper(tbl.relname) = upper('mart_seller_scorecard')))
+      and not pg_is_other_temp_schema(sch.oid) -- not a temporary schema belonging to another session
+      and tbl.relpersistence in ('p', 'u') -- [p]ermanent table or [u]nlogged table. Exclude [t]emporary tables
+      and tbl.relkind in ('r', 'v', 'f', 'p', 'm') -- o[r]dinary table, [v]iew, [f]oreign table, [p]artitioned table, [m]aterialized view. Other values are [i]ndex, [S]equence, [c]omposite type, [t]OAST table
+      and col.attnum > 0 -- negative numbers are used for system columns such as oid
+      and not col.attisdropped -- column as not been dropped
+
+    order by
+        sch.nspname,
+        tbl.relname,
+        col.attnum
+[0m13:08:11.119371 [debug] [ThreadPool]: SQL status: SELECT 160 in 0.0 seconds
+[0m13:08:11.131958 [debug] [ThreadPool]: On postgres.information_schema: ROLLBACK
+[0m13:08:11.172719 [debug] [ThreadPool]: On postgres.information_schema: Close
+[0m13:08:11.182524 [info ] [MainThread]: Catalog written to /Users/chokkapusaatvika/Downloads/olist-ecommerce-intelligence/olist_dw/target/catalog.json
+[0m13:08:11.184678 [debug] [MainThread]: Resource report: {"command_name": "generate", "command_success": true, "command_wall_clock_time": 1.9475838, "process_user_time": 0.922874, "process_kernel_time": 0.120462, "process_mem_max_rss": "138788864", "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m13:08:11.185012 [debug] [MainThread]: Command `dbt docs generate` succeeded at 13:08:11.184935 after 1.95 seconds
+[0m13:08:11.185219 [debug] [MainThread]: Connection 'generate_catalog' was properly closed.
+[0m13:08:11.185356 [debug] [MainThread]: Connection 'postgres.information_schema' was properly closed.
+[0m13:08:11.185523 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10d5dba10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10e6a9f40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10e6a9ff0>]}
+[0m13:08:11.185713 [debug] [MainThread]: Flushing usage events

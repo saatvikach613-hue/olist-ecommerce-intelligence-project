@@ -1,0 +1,13 @@
+
+  create view "postgres"."analytics"."stg_sellers__dbt_tmp"
+    
+    
+  as (
+    SELECT 
+    seller_id,
+    seller_zip_code_prefix AS zip_code_prefix,
+    seller_city AS city,
+    seller_state AS state
+FROM "postgres"."raw"."olist_sellers"
+WHERE seller_id IS NOT NULL
+  );

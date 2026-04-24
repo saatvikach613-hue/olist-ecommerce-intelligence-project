@@ -1,0 +1,36 @@
+version: 2
+models:
+  - name: mart_revenue_summary
+    description: "Monthly GMV and AOV summary for executive dashboard"
+    columns:
+      - name: order_month
+        description: "Month of purchase"
+      - name: gmv
+        description: "Gross Merchandise Value"
+        tests:
+          - not_null
+  - name: mart_customer_segments
+    description: "Customer level table with RFM segments"
+    columns:
+      - name: customer_id
+        tests:
+          - unique
+          - not_null
+      - name: rfm_segment
+        tests:
+          - accepted_values:
+              values: ['Champions', 'Loyal', 'At-Risk', 'Lost']
+  - name: mart_seller_scorecard
+    description: "Seller performance and SLA monitoring"
+    columns:
+      - name: seller_id
+        tests:
+          - unique
+          - not_null
+  - name: mart_delivery_sla
+    description: "Order level delivery performance"
+    columns:
+      - name: is_late_delivery
+        tests:
+          - accepted_values:
+              values: [true, false]
