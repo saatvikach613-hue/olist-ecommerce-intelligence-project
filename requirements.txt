@@ -3,3 +3,9 @@ SQLAlchemy>=2.0.28
 psycopg[binary]
 python-dotenv==1.0.1
 dbt-postgres==1.7.9
+nbformat
+jupyter
+matplotlib
+seaborn
+scikit-learn
+ipykernel
