@@ -1,0 +1,50 @@
+erDiagram
+    dim_customers ||--o{ fact_orders : "places"
+    dim_sellers ||--o{ fact_orders : "fulfills"
+    dim_products ||--o{ fact_orders : "contains"
+    dim_date ||--o{ fact_orders : "occurs_on"
+
+    dim_customers {
+        varchar customer_id PK
+        varchar city
+        varchar state
+        varchar region
+    }
+
+    dim_sellers {
+        varchar seller_id PK
+        varchar seller_city
+        varchar seller_state
+        int seller_tenure_days
+    }
+
+    dim_products {
+        varchar product_id PK
+        varchar category_name_english
+        int weight_g
+        int volume_cm3
+        varchar price_band
+    }
+
+    dim_date {
+        int date_key PK
+        date full_date
+        int year
+        int quarter
+        int month
+        varchar month_name
+    }
+
+    fact_orders {
+        varchar order_id PK
+        varchar customer_id FK
+        varchar seller_id FK
+        varchar product_id FK
+        int order_date_key FK
+        int delivery_date_key FK
+        decimal payment_value
+        decimal freight_value
+        int review_score
+        int days_to_deliver
+        boolean is_late_delivery
+    }
