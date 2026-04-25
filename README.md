@@ -1,10 +1,15 @@
 # 🛰️ Olist E-Commerce Intelligence: Professional Command Center
 
-An end-to-end, high-fidelity Business Intelligence and Machine Learning suite built for the Brazilian Olist ecosystem. This project moves beyond static reporting to provide a real-time, cloud-connected "Tactical Command Center" for executive decision-making.
+A high-fidelity, executive Business Intelligence and Machine Learning suite built for the Brazilian Olist ecosystem. This project transforms fragmented e-commerce data into a "Tactical Command Center" powered by **AWS RDS**, **dbt**, and **Machine Learning**.
 
-![Olist Dashboard](https://img.shields.io/badge/Project-Production--Ready-gold?style=for-the-badge)
+[![Live Dashboard](https://img.shields.io/badge/Live-Dashboard-brightgreen?style=for-the-badge&logo=streamlit)](https://olist-ecommerce-intelligence-project.streamlit.app/)
+![Project Status](https://img.shields.io/badge/Project-Production--Ready-gold?style=for-the-badge)
 ![Database](https://img.shields.io/badge/DB-AWS_RDS_PostgreSQL-blue?style=for-the-badge)
-![Modeling](https://img.shields.io/badge/Modeling-dbt_Analytics_Marts-orange?style=for-the-badge)
+
+---
+
+## 🔗 Live Access
+**View the Interactive Dashboard Here:** [olist-ecommerce-intelligence-project.streamlit.app](https://olist-ecommerce-intelligence-project.streamlit.app/)
 
 ---
 
